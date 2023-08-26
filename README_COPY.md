@@ -1,10 +1,19 @@
-# WCC INFRA PRIVATE LIMITED
+# Free React / Next.js landing page template
 
+![Open React / Next.js template preview](https://user-images.githubusercontent.com/2683512/231426532-c71f4291-4813-401b-a569-ada47fe13efa.png)
 
+**Open** is a **free React / Next.js landing page template built with Tailwind CSS** for developers/makers who want to create a quick and professional landing page for their open source projects, SaaS products, online services, and more.
 
-## Live Website Link
+Use it for whatever you want, and be sure to reach us out on [Twitter](https://twitter.com/Cruip_com) if you build anything cool/useful with it.
 
-Check the live web here 👉️ [https://wccinfra.com/](https://wccinfra.com/)
+Created and maintained with ❤️ by [Cruip.com](https://cruip.com).
+
+*Version 1.0.0 built with the Cruip CSS is available [here](https://github.com/cruip/open-react-template/releases/tag/1.0.0).*
+*Version 2.0.3 built with Tailwind CSS and React + Vite is available [here](https://github.com/cruip/open-react-template/releases/tag/2.0.3).*
+
+## Live demo
+
+Check the live demo here 👉️ [https://open.cruip.com/](https://open.cruip.com/)
 
 ## Open PRO
 
@@ -49,17 +58,18 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-### Node Version 
-
-16.14.1
+### Deploy on Vercel
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
 
-### Design Link
-https://looka.com/editor/144533198
+### Support notes
+This template has been developed with the App Router (`app`) and React Server Components. If you’re unfamiliar with these beta features, you can find more information about them on the Next.js beta documentation page. So, please note that any request dealing with React (e.g. extra features, customisations, et cetera) is to be considered out of the support scope.
+
+For more information about what support covers, please see our (FAQs)[https://cruip.com/faq/].
+
 ## Credits
 
 - [Nucleo](https://nucleoapp.com/)
