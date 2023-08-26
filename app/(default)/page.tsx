@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'Home - Open PRO',
-  description: 'Page description',
+  title: 'WCC Infra Private Limited',
+  description: 'Discover construction excellence with Wcc Infra Private Limited. Specializing in innovative infrastructure solutions, we bring expertise to water construction, pipelines, and more. Shape the future with us.',
 }
 
 import Hero from '@/components/hero'
