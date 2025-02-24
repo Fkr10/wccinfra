@@ -4,8 +4,8 @@ const sliderData = [
   {
     id: 1,
     title: "WELCOME TO WCC INFRA",
-    description: "We Make Awesome Theme For Your Business",
-    link: "https://bootstrapthemes.co",
+    description: "Building Strong Foundations for a Sustainable Future.",
+    link: "https://www.youtube.com/@WCCINFRA",
   },
 ];
 
