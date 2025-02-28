@@ -283,7 +283,7 @@ function OtherSections() {
 
                 {
                   name: "Scrapworker",
-                  logo: "Scrapworker.svg",
+                  logo: "scrapworker.svg",
                   link: "https://www.scrapworker.com",
                 },
 

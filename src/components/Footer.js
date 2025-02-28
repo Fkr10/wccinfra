@@ -16,9 +16,10 @@ function Footer() {
                 drive progress.
               </p>
               <p>
-                We also provide <a href="www.scrapworker.com">Scrapworker</a>{" "}
-                Services, ensuring eco-friendly recycling,{" "}
-                <a href="www.scrapworker.com/metal-scrap">
+                We also provide{" "}
+                <a href="https://www.scrapworker.com">Scrapworker</a> Services,
+                ensuring eco-friendly recycling,{" "}
+                <a href="https://www.scrapworker.com/metal-scrap">
                   Metal scrap recycling
                 </a>{" "}
                 and waste management solutions.
