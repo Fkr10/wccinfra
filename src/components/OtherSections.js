@@ -1,290 +1,9 @@
 import React from "react";
+import ContactUs from "./ContactUs";
 
 function OtherSections() {
   return (
     <>
-      <section id="about" class="about">
-        <div class="container">
-          <div class="row">
-            <div class="main_about_area sections">
-              <div class="col-sm-12">
-                <div class="main_about_content">
-                  <div class="row">
-                    <div
-                      class="col-sm-7 wow fadeInRight"
-                      data-wow-duration="700ms"
-                    >
-                      <div class="single_about_right_content">
-                        <div class="head_title">
-                          <h3>ABOUT LOGIC</h3>
-                          <div class="separator"></div>
-                        </div>
-
-                        <div class="single_about">
-                          <div class="single_ab_icon">
-                            <div class="ab_border_right"></div>
-                            <i class="fa fa-coffee"></i>
-                          </div>
-                          <div class="single_ab_text">
-                            <h3>RESPONSIVE DESIGN</h3>
-                            <p>
-                              Lorem Ipsum is simply dummy text of the printing
-                              and typesetting industry. Lorem Ipsum has been the
-                              industry's standard dummy text
-                            </p>
-                          </div>
-                        </div>
-                        <div class="single_about">
-                          <div class="single_ab_icon">
-                            <i class="fa fa-paint-brush"></i>
-                          </div>
-                          <div class="single_ab_text">
-                            <h3>EASY TO CUSTOMIZE</h3>
-                            <p>
-                              Lorem Ipsum is simply dummy text of the printing
-                              and typesetting industry. Lorem Ipsum has been the
-                              industry's standard dummy text
-                            </p>
-                          </div>
-                        </div>
-                        <div class="single_about">
-                          <div class="single_ab_icon">
-                            <i class="fa fa-headphones"></i>
-                          </div>
-                          <div class="single_ab_text">
-                            <h3>LIFE TIME SUPPORT</h3>
-                            <p>
-                              Lorem Ipsum is simply dummy text of the printing
-                              and typesetting industry. Lorem Ipsum has been the
-                              industry's standard dummy text
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="col-sm-5">
-                      <div
-                        class="single_about_left_img margin-top-40 text-center wow fadeInLeft"
-                        data-wow-duration=".6s"
-                      >
-                        <img src="assets/images/abright.png" alt="" />
-                      </div>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="about_skill_area">
-                      <div class="col-sm-6">
-                        <div class="about_tabe">
-                          <ul class="about_tabe_menu" role="tablist">
-                            <li role="presentation" class="active">
-                              <a
-                                href="#mission"
-                                aria-controls="mission"
-                                role="tab"
-                                data-toggle="tab"
-                              >
-                                OUR MISSION
-                              </a>
-                            </li>
-                            <li role="presentation">
-                              <a
-                                href="#goal"
-                                aria-controls="goal"
-                                role="tab"
-                                data-toggle="tab"
-                              >
-                                OUR GOAL
-                              </a>
-                            </li>
-                            <li role="presentation">
-                              <a
-                                href="#achivements"
-                                aria-controls="achivements"
-                                role="tab"
-                                data-toggle="tab"
-                              >
-                                ACHIVEMENTS
-                              </a>
-                            </li>
-                          </ul>
-
-                          <div class="tab-content">
-                            <div
-                              role="tabpanel"
-                              class="tab-pane active"
-                              id="mission"
-                            >
-                              <div class="single_about_tab">
-                                <p>
-                                  Lorem Ipsum is simply dummy text of the
-                                  printing and typesetting industry. Lorem Ipsum
-                                  has been the industry's standard dummy text
-                                  ever since the 1500s, when an unknown printer
-                                  took a galley type a scrambled it to make a
-                                  type specimen book. It has survived not only
-                                  five centuries,
-                                </p>
-
-                                <div class="row">
-                                  <div class="col-sm-6">
-                                    <ul class="single_ab_mision">
-                                      <li>
-                                        <i class="fa fa-check-square"></i> We
-                                        just want to love our client
-                                      </li>
-                                      <li>
-                                        <i class="fa fa-check-square"></i> We
-                                        just want to love our client
-                                      </li>
-                                    </ul>
-                                  </div>
-                                  <div class="col-sm-6">
-                                    <ul class="single_ab_mision">
-                                      <li>
-                                        <i class="fa fa-check-square"></i> We
-                                        just want to love our client
-                                      </li>
-                                      <li>
-                                        <i class="fa fa-check-square"></i> We
-                                        just want to love our client
-                                      </li>
-                                    </ul>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div role="tabpanel" class="tab-pane" id="goal">
-                              <div class="single_about_tab">
-                                <p>
-                                  222Lorem Ipsum is simply dummy text of the
-                                  printing and typesetting industry. Lorem Ipsum
-                                  has been the industry's standard dummy text
-                                  ever since the 1500s, when an unknown printer
-                                  took a galley type a scrambled it to make a
-                                  type specimen book. It has survived not only
-                                  five centuries,
-                                </p>
-
-                                <div class="row">
-                                  <div class="col-sm-6">
-                                    <ul class="single_ab_mision">
-                                      <li>
-                                        <i class="fa fa-check-square"></i> We
-                                        just want to love our client
-                                      </li>
-                                      <li>
-                                        <i class="fa fa-check-square"></i> We
-                                        just want to love our client
-                                      </li>
-                                    </ul>
-                                  </div>
-                                  <div class="col-sm-6">
-                                    <ul class="single_ab_mision">
-                                      <li>
-                                        <i class="fa fa-check-square"></i> We
-                                        just want to love our client
-                                      </li>
-                                      <li>
-                                        <i class="fa fa-check-square"></i> We
-                                        just want to love our client
-                                      </li>
-                                    </ul>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div
-                              role="tabpanel"
-                              class="tab-pane"
-                              id="achivements"
-                            >
-                              <div class="single_about_tab">
-                                <p>
-                                  333Lorem Ipsum is simply dummy text of the
-                                  printing and typesetting industry. Lorem Ipsum
-                                  has been the industry's standard dummy text
-                                  ever since the 1500s, when an unknown printer
-                                  took a galley type a scrambled it to make a
-                                  type specimen book. It has survived not only
-                                  five centuries,
-                                </p>
-
-                                <div class="row">
-                                  <div class="col-sm-6">
-                                    <ul class="single_ab_mision">
-                                      <li>
-                                        <i class="fa fa-check-square"></i> We
-                                        just want to love our client
-                                      </li>
-                                      <li>
-                                        <i class="fa fa-check-square"></i> We
-                                        just want to love our client
-                                      </li>
-                                    </ul>
-                                  </div>
-                                  <div class="col-sm-6">
-                                    <ul class="single_ab_mision">
-                                      <li>
-                                        <i class="fa fa-check-square"></i> We
-                                        just want to love our client
-                                      </li>
-                                      <li>
-                                        <i class="fa fa-check-square"></i> We
-                                        just want to love our client
-                                      </li>
-                                    </ul>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-sm-6">
-                        <div class="about_skill">
-                          <div class="skillbar" data-percent="79%">
-                            <div class="skillbar-title">
-                              <h3 class="blue">PHOTOSHOP</h3>
-                              <span class="sm-text">79%</span>
-                            </div>
-                            <div class="skillbar-bar blue"></div>
-                          </div>
-
-                          <div class="skillbar" data-percent="90%">
-                            <div class="skillbar-title">
-                              <h3 class="blue">HTML/CSS</h3>
-                              <span class="sm-text">90%</span>
-                            </div>
-                            <div class="skillbar-bar blue"></div>
-                          </div>
-
-                          <div class="skillbar" data-percent="69%">
-                            <div class="skillbar-title">
-                              <h3 class="blue">JAVASCRIPT</h3>
-                              <span class="sm-text">69%</span>
-                            </div>
-                            <div class="skillbar-bar blue"></div>
-                          </div>
-
-                          <div class="skillbar" data-percent="92%">
-                            <div class="skillbar-title">
-                              <h3 class="blue">WORDPRESS</h3>
-                              <span class="sm-text">92%</span>
-                            </div>
-                            <div class="skillbar-bar blue"></div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       <section id="counter" class="counter">
         <div class="video_overlay">
           <div class="container">
@@ -295,9 +14,9 @@ function OtherSections() {
                     <div class="single_counter border_right">
                       <div class="col-sm-3 col-xs-12">
                         <div class="single_counter_item">
-                          <h2 class="statistic-counter">561</h2>
+                          <h2 class="statistic-counter">500+</h2>
                           <i class="icon icon-thumbs-up"></i>
-                          <p class="margin-top-20">CREATIVE DESIGN</p>
+                          <p class="margin-top-20">PROJECTS COMPLETED</p>
                         </div>
                       </div>
                     </div>
@@ -305,9 +24,9 @@ function OtherSections() {
                     <div class="single_counter">
                       <div class="col-sm-3 col-xs-12">
                         <div class="single_counter_item">
-                          <h2 class="statistic-counter">25</h2>
+                          <h2 class="statistic-counter">10+</h2>
                           <i class="icon icon-business-3"></i>
-                          <p class="margin-top-20">AWARDS WON</p>
+                          <p class="margin-top-20">YEARS OF EXPERIENCE</p>
                         </div>
                       </div>
                     </div>
@@ -315,9 +34,9 @@ function OtherSections() {
                     <div class="single_counter">
                       <div class="col-sm-3 col-xs-12">
                         <div class="single_counter_item">
-                          <h2 class="statistic-counter">236</h2>
+                          <h2 class="statistic-counter">50+</h2>
                           <i class="icon icon-people-32"></i>
-                          <p class="margin-top-20">HAPPY CLIENTS</p>
+                          <p class="margin-top-20">CLIENTS SERVED</p>
                         </div>
                       </div>
                     </div>
@@ -325,266 +44,9 @@ function OtherSections() {
                     <div class="single_counter">
                       <div class="col-sm-3 col-xs-12">
                         <div class="single_counter_item">
-                          <h2 class="statistic-counter">365</h2>
+                          <h2 class="statistic-counter">1000+</h2>
                           <i class="icon icon-cup"></i>
-                          <p class="margin-top-20">CUP OF COFFEE</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="othersservice" class="othersservice">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-12">
-              <div class="main_othersservice_area sections">
-                <div class="row">
-                  <div class="head_title">
-                    <h3>OTHER SERVICES</h3>
-                    <div class="separator"></div>
-                  </div>
-
-                  <div class="main_othersservice_content">
-                    <div class="col-sm-4">
-                      <div class="single_othersservice">
-                        <div class="single_othersservice_icon">
-                          <h4>
-                            <span>
-                              <i class="fa fa-clock-o"></i>
-                            </span>{" "}
-                            CREATIVE DESIGN
-                          </h4>
-                        </div>
-                        <div class="single_othersservice_content">
-                          <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit, sed do eiusmod tempor.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-sm-4">
-                      <div class="single_othersservice">
-                        <div class="single_othersservice_icon">
-                          <h4>
-                            {" "}
-                            <span>
-                              <i class="fa fa-picture-o"></i>
-                            </span>{" "}
-                            WEB DEVELOPMENT
-                          </h4>
-                        </div>
-                        <div class="single_othersservice_content">
-                          <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit, sed do eiusmod tempor.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-sm-4">
-                      <div class="single_othersservice">
-                        <div class="single_othersservice_icon">
-                          <h4>
-                            {" "}
-                            <span>
-                              <i class="fa fa-television"></i>
-                            </span>{" "}
-                            VIDEO EDITING
-                          </h4>
-                        </div>
-                        <div class="single_othersservice_content">
-                          <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit, sed do eiusmod tempor.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="col-sm-4">
-                      <div class="single_othersservice">
-                        <div class="single_othersservice_icon">
-                          <h4>
-                            {" "}
-                            <span>
-                              <i class="fa fa-object-group"></i>
-                            </span>{" "}
-                            MARKETING
-                          </h4>
-                        </div>
-                        <div class="single_othersservice_content">
-                          <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit, sed do eiusmod tempor.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="col-sm-4">
-                      <div class="single_othersservice">
-                        <div class="single_othersservice_icon">
-                          <h4>
-                            {" "}
-                            <span>
-                              <i class="fa fa-object-group"></i>
-                            </span>{" "}
-                            PHOTOGRAPHY
-                          </h4>
-                        </div>
-                        <div class="single_othersservice_content">
-                          <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit, sed do eiusmod tempor.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="col-sm-4">
-                      <div class="single_othersservice">
-                        <div class="s_ot_i_area">
-                          <div class="single_othersservice_icon">
-                            <h4>
-                              <span>
-                                <i class="fa fa-object-group"></i>
-                              </span>{" "}
-                              LOGO DESIGN
-                            </h4>
-                          </div>
-                        </div>
-                        <div class="single_othersservice_content">
-                          <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit, sed do eiusmod tempor.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="team" class="team">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-12">
-              <div class="main_team sections">
-                <div class="row">
-                  <div class="head_title">
-                    <h3>OTHER SERVICES</h3>
-                    <div class="separator"></div>
-                  </div>
-                  <div class="col-sm-3 col-xs-12">
-                    <div class="single_team_content">
-                      <div class="single_team_img">
-                        <img src="assets/images/team1.jpg" alt="" />
-                      </div>
-                      <div class="single_team_text_overlay">
-                        <h4>SEMF UCUK</h4>
-                        <p>FOUNDER</p>
-                        <div class="team_overlay_socail">
-                          <a href="">
-                            <i class="fa fa-facebook"></i>
-                          </a>
-                          <a href="">
-                            <i class="fa fa-twitter"></i>
-                          </a>
-                          <a href="">
-                            <i class="fa fa-google-plus"></i>
-                          </a>
-                          <a href="">
-                            <i class="fa fa-pinterest-p"></i>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-sm-3 col-xs-12">
-                    <div class="single_team_content">
-                      <div class="single_team_img">
-                        <img src="assets/images/team2.jpg" alt="" />
-                      </div>
-                      <div class="single_team_text_overlay">
-                        <h4>DIK ADALIN</h4>
-                        <p>ENGINEERING</p>
-                        <div class="team_overlay_socail">
-                          <a href="">
-                            <i class="fa fa-facebook"></i>
-                          </a>
-                          <a href="">
-                            <i class="fa fa-twitter"></i>
-                          </a>
-                          <a href="">
-                            <i class="fa fa-google-plus"></i>
-                          </a>
-                          <a href="">
-                            <i class="fa fa-pinterest-p"></i>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-sm-3 col-xs-12">
-                    <div class="single_team_content">
-                      <div class="single_team_img">
-                        <img src="assets/images/team3.jpg" alt="" />
-                      </div>
-                      <div class="single_team_text_overlay">
-                        <h4>JENG KOL</h4>
-                        <p>DESIGNER</p>
-                        <div class="team_overlay_socail">
-                          <a href="">
-                            <i class="fa fa-facebook"></i>
-                          </a>
-                          <a href="">
-                            <i class="fa fa-twitter"></i>
-                          </a>
-                          <a href="">
-                            <i class="fa fa-google-plus"></i>
-                          </a>
-                          <a href="">
-                            <i class="fa fa-pinterest-p"></i>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-sm-3 col-xs-12">
-                    <div class="single_team_content">
-                      <div class="single_team_img">
-                        <img src="assets/images/team4.jpg" alt="" />
-                      </div>
-                      <div class="single_team_text_overlay">
-                        <h4>PET ROMAK</h4>
-                        <p>MARKETING</p>
-                        <div class="team_overlay_socail">
-                          <a href="">
-                            <i class="fa fa-facebook"></i>
-                          </a>
-                          <a href="">
-                            <i class="fa fa-twitter"></i>
-                          </a>
-                          <a href="">
-                            <i class="fa fa-google-plus"></i>
-                          </a>
-                          <a href="">
-                            <i class="fa fa-pinterest-p"></i>
-                          </a>
+                          <p class="margin-top-20">EMPLOYEES & WORKERS</p>
                         </div>
                       </div>
                     </div>
@@ -625,7 +87,8 @@ function OtherSections() {
                               aria-controls="collapseOne"
                               class="collapsed"
                             >
-                              <i class="fa fa-picture-o"></i> GREAT DESIGN
+                              <i class="fa fa-cogs"></i> EXPERTISE IN
+                              INFRASTRUCTURE
                             </a>
                           </h4>
                         </div>
@@ -634,22 +97,18 @@ function OtherSections() {
                           class="panel-collapse collapse in"
                           role="tabpanel"
                           aria-labelledby="headingOne"
-                          aria-expanded="false"
-                          style={{ height: "auto" }}
                         >
                           <div class="panel-body">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit, sed do eiusmod tempor incididunt ut labore et
-                            dolore magna aliqua. Ut enim ad minim veniam, quis
-                            nostrud exercitation ullamco laboris nisi ut aliquip
-                            ex ea commodo consequat. Duis aute irure dolor in
-                            reprehenderit in voluptate velit esse cillum dolore
-                            eu fugiat nulla pariatur. Excepteur sint occaecat
-                            cupidatat non proident, sunt in culpa qui officia
-                            deserunt mollit anim id est laborum.
+                            With years of experience in infrastructure
+                            development, WCC Infra specializes in pipeline
+                            construction, trenchless technology, road
+                            development, sewer networks, and earthworks. Our
+                            expertise ensures high-quality, durable, and
+                            efficient solutions.
                           </div>
                         </div>
                       </div>
+
                       <div class="panel panel-default">
                         <div class="panel-heading" role="tab" id="headingTwo">
                           <h4 class="panel-title">
@@ -662,7 +121,8 @@ function OtherSections() {
                               aria-expanded="false"
                               aria-controls="collapseTwo"
                             >
-                              <i class="fa fa-map-signs"></i> RESPONSIVE DESIGN
+                              <i class="fa fa-check-circle"></i> QUALITY &
+                              SAFETY ASSURANCE
                             </a>
                           </h4>
                         </div>
@@ -671,21 +131,17 @@ function OtherSections() {
                           class="panel-collapse collapse"
                           role="tabpanel"
                           aria-labelledby="headingTwo"
-                          aria-expanded="false"
                         >
                           <div class="panel-body">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit, sed do eiusmod tempor incididunt ut labore et
-                            dolore magna aliqua. Ut enim ad minim veniam, quis
-                            nostrud exercitation ullamco laboris nisi ut aliquip
-                            ex ea commodo consequat. Duis aute irure dolor in
-                            reprehenderit in voluptate velit esse cillum dolore
-                            eu fugiat nulla pariatur. Excepteur sint occaecat
-                            cupidatat non proident, sunt in culpa qui officia
-                            deserunt mollit anim id est laborum.
+                            Our commitment to safety and quality is unmatched.
+                            We follow the highest industry standards, using
+                            premium materials and cutting-edge technology to
+                            ensure sustainable and long-lasting infrastructure
+                            projects.
                           </div>
                         </div>
                       </div>
+
                       <div class="panel panel-default">
                         <div class="panel-heading" role="tab" id="headingThree">
                           <h4 class="panel-title">
@@ -698,7 +154,7 @@ function OtherSections() {
                               aria-expanded="false"
                               aria-controls="collapseThree"
                             >
-                              <i class="fa fa-bullseye"></i> RATINA READY
+                              <i class="fa fa-globe"></i> END-TO-END SOLUTIONS
                             </a>
                           </h4>
                         </div>
@@ -707,90 +163,79 @@ function OtherSections() {
                           class="panel-collapse collapse"
                           role="tabpanel"
                           aria-labelledby="headingThree"
-                          aria-expanded="false"
                         >
                           <div class="panel-body">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit, sed do eiusmod tempor incididunt ut labore et
-                            dolore magna aliqua. Ut enim ad minim veniam, quis
-                            nostrud exercitation ullamco laboris nisi ut aliquip
-                            ex ea commodo consequat. Duis aute irure dolor in
-                            reprehenderit in voluptate velit esse cillum dolore
-                            eu fugiat nulla pariatur. Excepteur sint occaecat
-                            cupidatat non proident, sunt in culpa qui officia
-                            deserunt mollit anim id est laborum.
+                            From project planning to execution and maintenance,
+                            we provide complete infrastructure solutions. Our
+                            services include pipeline installation, trenchless
+                            technology, road construction, and sewage treatment
+                            plant projects.
                           </div>
                         </div>
                       </div>
+
                       <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="headingThree">
+                        <div class="panel-heading" role="tab" id="headingFour">
                           <h4 class="panel-title">
                             <a
                               class="collapsed"
                               role="button"
                               data-toggle="collapse"
                               data-parent="#accordion"
-                              href="#collapsefour"
+                              href="#collapseFour"
                               aria-expanded="false"
-                              aria-controls="collapseThree"
+                              aria-controls="collapseFour"
                             >
-                              <i class="fa fa-umbrella"></i>FREE GOOGLE FONT
+                              <i class="fa fa-lightbulb-o"></i> INNOVATIVE
+                              TECHNOLOGY
                             </a>
                           </h4>
                         </div>
                         <div
-                          id="collapsefour"
+                          id="collapseFour"
                           class="panel-collapse collapse"
                           role="tabpanel"
-                          aria-labelledby="headingThree"
-                          aria-expanded="false"
+                          aria-labelledby="headingFour"
                         >
                           <div class="panel-body">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit, sed do eiusmod tempor incididunt ut labore et
-                            dolore magna aliqua. Ut enim ad minim veniam, quis
-                            nostrud exercitation ullamco laboris nisi ut aliquip
-                            ex ea commodo consequat. Duis aute irure dolor in
-                            reprehenderit in voluptate velit esse cillum dolore
-                            eu fugiat nulla pariatur. Excepteur sint occaecat
-                            cupidatat non proident, sunt in culpa qui officia
-                            deserunt mollit anim id est laborum.
+                            We integrate cutting-edge technology and modern
+                            engineering techniques in our projects. Our use of
+                            advanced equipment ensures efficiency, accuracy, and
+                            cost-effective solutions for complex infrastructure
+                            challenges.
                           </div>
                         </div>
                       </div>
+
                       <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="headingThree">
+                        <div class="panel-heading" role="tab" id="headingFive">
                           <h4 class="panel-title">
                             <a
                               class="collapsed"
                               role="button"
                               data-toggle="collapse"
                               data-parent="#accordion"
-                              href="#collapsefive"
+                              href="#collapseFive"
                               aria-expanded="false"
-                              aria-controls="collapseThree"
+                              aria-controls="collapseFive"
                             >
-                              <i class="fa fa-subway"></i>1170 PX GRID BASE
+                              <i class="fa fa-users"></i> CLIENT-CENTRIC
+                              APPROACH
                             </a>
                           </h4>
                         </div>
                         <div
-                          id="collapsefive"
+                          id="collapseFive"
                           class="panel-collapse collapse"
                           role="tabpanel"
-                          aria-labelledby="headingfive"
-                          aria-expanded="false"
+                          aria-labelledby="headingFive"
                         >
                           <div class="panel-body">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit, sed do eiusmod tempor incididunt ut labore et
-                            dolore magna aliqua. Ut enim ad minim veniam, quis
-                            nostrud exercitation ullamco laboris nisi ut aliquip
-                            ex ea commodo consequat. Duis aute irure dolor in
-                            reprehenderit in voluptate velit esse cillum dolore
-                            eu fugiat nulla pariatur. Excepteur sint occaecat
-                            cupidatat non proident, sunt in culpa qui officia
-                            deserunt mollit anim id est laborum.
+                            At WCC Infra, we prioritize our clients’ needs,
+                            ensuring timely project delivery, transparent
+                            communication, and cost-effective solutions. Our
+                            team is dedicated to exceeding client expectations
+                            in every project.
                           </div>
                         </div>
                       </div>
@@ -802,7 +247,16 @@ function OtherSections() {
               <div class="col-sm-6">
                 <div class="single_choose">
                   <div class="single_choose_img">
-                    <img src="assets/images/choose.png" alt="" />
+                    <img
+                      src="assets/images/choose.jpeg"
+                      alt="Why Choose WCC Infra"
+                      style={{
+                        width: "550px",
+                        height: "530px",
+                        objectFit: "cover",
+                        borderRadius: "10px",
+                      }}
+                    />
                   </div>
                 </div>
               </div>
@@ -811,488 +265,78 @@ function OtherSections() {
         </div>
       </section>
 
-      <section id="portfolio" class="portfolio lightbg">
-        <div class="container">
-          <div class="row">
-            <div class="main_portfolio sections">
-              <div class="col-sm-4">
-                <div class="head_title">
-                  <h3>LATEST PROJECT</h3>
-                  <div class="separator"></div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-sm-offset-2">
-                <div id="filters" class="toolbar mb2 mt2">
-                  <button
-                    class="btn-md fil-cat filter active"
-                    href=""
-                    data-filter="all"
+      <section id="clogo" className="clogo">
+        <div className="container">
+          <div className="row">
+            <div className="main_clogo sections text-center">
+              {[
+                {
+                  name: "Wave Infratech Group",
+                  logo: "Wave-Infratech-Logo.png",
+                  link: "https://infratech.thewavegroup.com/",
+                },
+                {
+                  name: "Adani Infrastructure",
+                  logo: "adani.png",
+                  link: "https://www.aimsl.in/",
+                },
+
+                {
+                  name: "Scrapworker",
+                  logo: "Scrapworker.svg",
+                  link: "https://www.scrapworker.com",
+                },
+
+                {
+                  name: "Kutch Copper Ltd.",
+                  logo: "kutch.png",
+                  link: "https://www.adanimetals.com",
+                },
+                {
+                  name: "Adani Water Resource Management",
+                  logo: "adani.png",
+                  link: "https://www.adani.com/en/businesses/water",
+                },
+                {
+                  name: "Uttar Pradesh Jal Nigam",
+                  logo: "upjn-logo.png",
+                  link: "https://jn.upsdc.gov.in/",
+                },
+              ].map((company, index) => (
+                <div key={index} className="col-sm-2 col-xs-6">
+                  <a
+                    href={company.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
-                    SHOW ALL
-                  </button>
-                  <button
-                    class="btn-md fil-cat filter"
-                    data-rel="web"
-                    data-filter=".web"
+                    <img
+                      src={`assets/images/logo/${company.logo}`}
+                      alt={company.name}
+                      style={{
+                        width: "120px",
+                        height: "80px",
+                        objectFit: "contain",
+                        marginBottom: "5px",
+                      }}
+                    />
+                  </a>
+
+                  <p
+                    style={{
+                      fontSize: "12px",
+                      fontWeight: "bold",
+                      color: "#fff",
+                    }}
                   >
-                    PHOTOGRAPHY
-                  </button>
-                  <button
-                    class="btn-md fil-cat filter"
-                    data-rel="flyers"
-                    data-filter=".flyers"
-                  >
-                    BRANDING
-                  </button>
-                  <button
-                    class="btn-md fil-cat filter"
-                    data-rel="bcards"
-                    data-filter=".bcards"
-                  >
-                    GRAPHIC DESIGN
-                  </button>
-                  <div class="separator2"></div>
+                    {company.name}
+                  </p>
                 </div>
-              </div>
-
-              <div></div>
-              <div id="portfoliowork">
-                <div class="single_portfolio tile scale-anm web grid-item-width2">
-                  <img src="assets/images/pf1.jpg" alt="" />
-                  <div class="grid_item_overlay g_overlay_1">
-                    <a href="assets/images/pf1.jpg" class="portfolio-img">
-                      {" "}
-                      <i class="fa fa-link"></i>
-                    </a>
-                    <a href="#">
-                      {" "}
-                      <i class="fa fa-search"></i>
-                    </a>
-                  </div>
-                </div>
-                <div class="single_portfolio tile scale-anm bcards">
-                  <img src="assets/images/pf2.jpg" alt="" />
-                  <div class="grid_item_overlay">
-                    <a href="assets/images/pf2.jpg" class="portfolio-img">
-                      {" "}
-                      <i class="fa fa-link"></i>
-                    </a>
-                    <a href="#">
-                      {" "}
-                      <i class="fa fa-search"></i>
-                    </a>
-                  </div>
-                </div>
-                <div class="single_portfolio tile scale-anm web ">
-                  <img src="assets/images/pf3.jpg" alt="" />
-                  <div class="grid_item_overlay">
-                    <a href="assets/images/pf3.jpg" class="portfolio-img">
-                      {" "}
-                      <i class="fa fa-link"></i>
-                    </a>
-                    <a href="#">
-                      {" "}
-                      <i class="fa fa-search"></i>
-                    </a>
-                  </div>
-                </div>
-                <div class="single_portfolio tile scale-anm web">
-                  <img src="assets/images/pf4.jpg" alt="" />
-                  <div class="grid_item_overlay">
-                    <a href="assets/images/pf4.jpg" class="portfolio-img">
-                      {" "}
-                      <i class="fa fa-link"></i>
-                    </a>
-                    <a href="#">
-                      {" "}
-                      <i class="fa fa-search"></i>
-                    </a>
-                  </div>
-                </div>
-                <div class="single_portfolio tile scale-anm bcards">
-                  <img src="assets/images/pf8.jpg" alt="" />
-                  <div class="grid_item_overlay">
-                    <a href="assets/images/pf8.jpg" class="portfolio-img">
-                      {" "}
-                      <i class="fa fa-link"></i>
-                    </a>
-                    <a href="#">
-                      {" "}
-                      <i class="fa fa-search"></i>
-                    </a>
-                  </div>
-                </div>
-                <div class="single_portfolio tile scale-anm web">
-                  <img src="assets/images/pf9.jpg" alt="" />
-                  <div class="grid_item_overlay">
-                    <a href="assets/images/pf9.jpg" class="portfolio-img">
-                      <i class="fa fa-link"></i>
-                    </a>
-                    <a href="#">
-                      <i class="fa fa-search"></i>
-                    </a>
-                  </div>
-                </div>
-                <div class="single_portfolio tile scale-anm flyers">
-                  <img src="assets/images/pf5.jpg" alt="" />
-                  <div class="grid_item_overlay g_overlay_2">
-                    <a href="assets/images/pf5.jpg" class="portfolio-img">
-                      {" "}
-                      <i class="fa fa-link"></i>
-                    </a>
-                    <a href="#">
-                      {" "}
-                      <i class="fa fa-search"></i>
-                    </a>
-                  </div>
-                </div>
-                <div class="single_portfolio tile scale-anm flyers">
-                  <img src="assets/images/pf6.jpg" alt="" />
-                  <div class="grid_item_overlay g_overlay_1">
-                    <a href="assets/images/pf6.jpg" class="portfolio-img">
-                      {" "}
-                      <i class="fa fa-link"></i>
-                    </a>
-                    <a href="#">
-                      {" "}
-                      <i class="fa fa-search"></i>
-                    </a>
-                  </div>
-                </div>
-
-                <div class="single_portfolio tile scale-anm bcards">
-                  <img src="assets/images/pf7.jpg" alt="" />
-                  <div class="grid_item_overlay">
-                    <a href="assets/images/pf7.jpg" class="portfolio-img">
-                      {" "}
-                      <i class="fa fa-link"></i>
-                    </a>
-                    <a href="#">
-                      {" "}
-                      <i class="fa fa-search"></i>
-                    </a>
-                  </div>
-                </div>
-                <div class="single_portfolio tile scale-anm flyers">
-                  <img src="assets/images/pf6.jpg" alt="" />
-                  <div class="grid_item_overlay g_overlay_1">
-                    <a href="assets/images/pf6.jpg" class="portfolio-img">
-                      {" "}
-                      <i class="fa fa-link"></i>
-                    </a>
-                    <a href="#">
-                      {" "}
-                      <i class="fa fa-search"></i>
-                    </a>
-                  </div>
-                </div>
-
-                <div class="single_portfolio tile scale-anm bcards">
-                  <img src="assets/images/pf7.jpg" alt="" />
-                  <div class="grid_item_overlay">
-                    <a href="assets/images/pf7.jpg" class="portfolio-img">
-                      {" "}
-                      <i class="fa fa-link"></i>
-                    </a>
-                    <a href="#">
-                      {" "}
-                      <i class="fa fa-search"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-
-              <div></div>
+              ))}
             </div>
           </div>
         </div>
       </section>
-
-      <section id="testimonial" class="testimonial">
-        <div class="video_overlay">
-          <div class="container">
-            <div class="row">
-              <div class="main_testimonial sections text-center">
-                <div class="col-md-12" data-wow-delay="0.2s">
-                  <div class="main_teastimonial_slider text-center">
-                    <div class="single_testimonial">
-                      <div class="row">
-                        <div class="col-sm-8 col-sm-offset-2">
-                          <i class="fa fa-quote-left"></i>
-                          <p>
-                            There are many variations of passages of Lorem Ipsum
-                            available, but the majority have suffered alteration
-                            in some form, by injected humour, or randomised
-                            words which don't look even slightly believable. If
-                            you are going to use a passage of Lorem Ipsum, you
-                            need to be sure there isn't anything embarrassing
-                            hidden in the middle of text. All the Lorem ww
-                          </p>
-                          <div class="single_test_author">
-                            <h4>
-                              JANE GALADRIEL <span> -- CEO TENGKUREP</span>
-                            </h4>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="single_testimonial">
-                      <div class="row">
-                        <div class="col-sm-8 col-sm-offset-2">
-                          <i class="fa fa-quote-left"></i>
-                          <p>
-                            There are many variations of passages of Lorem Ipsum
-                            available, but the majority have suffered alteration
-                            in some form, by injected humour, or randomised
-                            words which don't look even slightly believable. If
-                            you are going to use a passage of Lorem Ipsum, you
-                            need to be sure there isn't anything embarrassing
-                            hidden in the middle of text. All the Lorem
-                          </p>
-                          <div class="single_test_author">
-                            <h4>
-                              JANE GALADRIEL <span> -- CEO TENGKUREP</span>
-                            </h4>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="single_testimonial">
-                      <div class="row">
-                        <div class="col-sm-8 col-sm-offset-2">
-                          <i class="fa fa-quote-left"></i>
-                          <p>
-                            There are many variations of passages of Lorem Ipsum
-                            available, but the majority have suffered alteration
-                            in some form, by injected humour, or randomised
-                            words which don't look even slightly believable. If
-                            you are going to use a passage of Lorem Ipsum, you
-                            need to be sure there isn't anything embarrassing
-                            hidden in the middle of text. All the Lorem
-                          </p>
-                          <div class="single_test_author">
-                            <h4>
-                              JANE GALADRIEL <span> -- CEO TENGKUREP</span>
-                            </h4>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="clogo" class="clogo">
-        <div class="container">
-          <div class="row">
-            <div class="main_clogo sections text-center">
-              <div class="col-sm-2 col-xs-6">
-                <a href="">
-                  <img src="assets/images/clogo1.png" alt="" />
-                </a>
-              </div>
-              <div class="col-sm-2 col-xs-6">
-                <a href="">
-                  <img src="assets/images/clogo2.png" alt="" />
-                </a>
-              </div>
-              <div class="col-sm-2 col-xs-6">
-                <a href="">
-                  <img src="assets/images/clogo3.png" alt="" />
-                </a>
-              </div>
-              <div class="col-sm-2 col-xs-6">
-                <a href="">
-                  <img src="assets/images/clogo4.png" alt="" />
-                </a>
-              </div>
-              <div class="col-sm-2 col-xs-6">
-                <a href="">
-                  <img src="assets/images/clogo5.png" alt="" />
-                </a>
-              </div>
-              <div class="col-sm-2 col-xs-6">
-                <a href="">
-                  <img src="assets/images/clogo9.png" alt="" />
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="contact" class="contact">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-12">
-              <div class="row">
-                <div class="contact_contant sections">
-                  <div class="col-sm-6">
-                    <div class="main_contact_info">
-                      <div class="head_title">
-                        <h3>CONTACT INFO</h3>
-                        <div class="separator"></div>
-                      </div>
-                      <div class="row">
-                        <div class="contact_info_content">
-                          <div class="col-sm-12">
-                            <div class="single_contact_info">
-                              <div class="single_info_icon">
-                                <i class="fa fa-home"></i>
-                              </div>
-                              <div class="single_info_text">
-                                <h3>VISIT US</h3>
-                                <p>
-                                  20, 2 Elizabeth ST, Melbourne, Victoria 3000
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col-sm-12">
-                            <div class="single_contact_info">
-                              <div class="single_info_icon">
-                                <i class="fa fa-envelope-o"></i>
-                              </div>
-                              <div class="single_info_text">
-                                <h3>MAIL US</h3>
-                                <p>support@yourmail.com</p>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col-sm-12">
-                            <div class="single_contact_info">
-                              <div class="single_info_icon">
-                                <i class="fa fa-mobile"></i>
-                              </div>
-                              <div class="single_info_text">
-                                <h3>CALL US</h3>
-                                <p>+(100) 123 4567 890</p>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col-sm-12">
-                            <div class="single_contact_info">
-                              <div class="single_info_icon">
-                                <i class="fa fa-clock-o"></i>
-                              </div>
-                              <div class="single_info_text">
-                                <h3>WORK HOUR</h3>
-                                <p>Mon - Sat: 08 Am - 17 Pm</p>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-sm-6">
-                    <div class="head_title">
-                      <h3>LEAVE MESSAGE</h3>
-                      <div class="separator"></div>
-                    </div>
-                    <div class="single_contant_left">
-                      <form action="#" id="formid">
-                        {/* <div class="col-lg-8 col-md-8 col-sm-10 col-lg-offset-2 col-md-offset-2 col-sm-offset-1"> */}
-
-                        <div class="row">
-                          <div class="col-sm-6">
-                            <div class="form-group">
-                              <input
-                                type="text"
-                                class="form-control"
-                                name="name"
-                                placeholder="First Name"
-                                required=""
-                              />
-                            </div>
-                          </div>
-                          <div class="col-sm-6">
-                            <div class="form-group">
-                              <input
-                                type="text"
-                                class="form-control"
-                                name="name"
-                                placeholder="Last Name"
-                                required=""
-                              />
-                            </div>
-                          </div>
-                        </div>
-
-                        <div class="row">
-                          <div class="col-sm-6">
-                            <div class="form-group">
-                              <input
-                                type="email"
-                                class="form-control"
-                                name="email"
-                                placeholder="Email"
-                                required=""
-                              />
-                            </div>
-                          </div>
-                          <div class="col-sm-6">
-                            <div class="form-group">
-                              <input
-                                type="text"
-                                class="form-control"
-                                name="subject"
-                                placeholder="Subject"
-                                required=""
-                              />
-                            </div>
-                          </div>
-                        </div>
-
-                        <div class="form-group">
-                          <textarea
-                            class="form-control"
-                            name="message"
-                            rows="8"
-                            placeholder="Message"
-                          ></textarea>
-                        </div>
-
-                        <div class="">
-                          <input
-                            type="submit"
-                            value="Submit"
-                            class="btn btn-primary"
-                          />
-                        </div>
-                        {/* </div> */}
-                      </form>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="maps" class="maps">
-        <div class="map-overlay">
-          <div class="container-fluid">
-            <div class="row">
-              <div class="main_maps text-center">
-                <div class="col-sm-12 no-padding">
-                  <div class="map_canvas_icon">
-                    <i class="fa fa-map-marker" onClick="showmap()"></i>
-                    <h2 onClick="showmap()">FIND US ON GOOGLE MAP</h2>
-                  </div>
-                  <div id="map_canvas"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <ContactUs />
     </>
   );
 }

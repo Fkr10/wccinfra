@@ -2,206 +2,103 @@ import React from "react";
 
 function Service() {
   return (
-    <section id="service" class="service">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="main_service_area">
-              <div class="main_service_content">
-                <div class="service_tabe">
-                  <ul class="service_tabe_menu nav nav-tabs" role="tablist">
-                    <li role="presentation" class="active">
-                      <a
-                        href="#webdesign"
-                        aria-controls="webdesign"
-                        role="tab"
-                        data-toggle="tab"
+    <>
+      <section id="service" className="service">
+        <div className="head_title">
+          <h3>Our Services</h3>
+          <div className="separator"></div>
+        </div>
+        <div className="container">
+          <div className="row">
+            <div className="col-sm-12">
+              <div className="main_service_area">
+                <div className="main_service_content">
+                  <div className="service_tabe">
+                    <ul
+                      className="service_tabe_menu nav nav-tabs"
+                      role="tablist"
+                    >
+                      <li role="presentation" className="active">
+                        <a
+                          href="#civil"
+                          aria-controls="civil"
+                          role="tab"
+                          data-toggle="tab"
+                        >
+                          <i className="fa fa-industry"></i> <br />
+                          Civil Engineering
+                        </a>
+                      </li>
+                      <li role="presentation">
+                        <a
+                          href="#pipeline"
+                          aria-controls="pipeline"
+                          role="tab"
+                          data-toggle="tab"
+                        >
+                          <i className="fa fa-wrench "></i> <br />
+                          Pipeline Installation
+                        </a>
+                      </li>
+                      <li role="presentation">
+                        <a
+                          href="#trenchless"
+                          aria-controls="trenchless"
+                          role="tab"
+                          data-toggle="tab"
+                        >
+                          <i className="fa fa-truck"></i> <br />
+                          Trenchless Technology
+                        </a>
+                      </li>
+                      <li role="presentation">
+                        <a
+                          href="#road"
+                          aria-controls="road"
+                          role="tab"
+                          data-toggle="tab"
+                        >
+                          <i className="fa fa-road"></i> <br />
+                          Road Construction
+                        </a>
+                      </li>
+                    </ul>
+
+                    <div className="tab-content">
+                      <div
+                        role="tabpanel"
+                        className="tab-pane active"
+                        id="civil"
                       >
-                        <i class="fa fa-map-marker"></i> <br />
-                        WEB DESIGN
-                      </a>
-                    </li>
-                    <li role="presentation">
-                      <a
-                        href="#appdesign"
-                        aria-controls="appdesign"
-                        role="tab"
-                        data-toggle="tab"
-                      >
-                        <i class="fa fa-map-marker"></i> <br />
-                        APP DESIGN
-                      </a>
-                    </li>
-                    <li role="presentation">
-                      <a
-                        href="#graphicdesign"
-                        aria-controls="graphicdesign"
-                        role="tab"
-                        data-toggle="tab"
-                      >
-                        <i class="fa fa-map-marker"></i> <br />
-                        GRAPHIC DESIGN
-                      </a>
-                    </li>
-                    <li role="presentation">
-                      <a
-                        href="#gamedesign"
-                        aria-controls="gamedesign"
-                        role="tab"
-                        data-toggle="tab"
-                      >
-                        <i class="fa fa-map-marker"></i> <br />
-                        GAME DESIGN
-                      </a>
-                    </li>
-                  </ul>
-
-                  <div class="tab-content">
-                    <div role="tabpanel" class="tab-pane active" id="webdesign">
-                      <div class="single_service_tab">
-                        <div class="row">
-                          <div class="col-sm-6">
-                            <div class="single_tab_content">
-                              <div class="head_title">
-                                <h3>WEB DESIGN One</h3>
-                                <div class="separator"></div>
+                        <div className="single_service_tab">
+                          <div className="row">
+                            <div className="col-sm-6">
+                              <div className="single_tab_content">
+                                <div className="head_title">
+                                  <h3 style={{ lineHeight: "1.2" }}>
+                                    Civil Engineering & Infrastructure
+                                  </h3>
+                                  <div className="separator"></div>
+                                </div>
+                                <p>
+                                  WCC Infra Private Limited specializes in
+                                  earthworks, foundation construction, sewer
+                                  networks, and customized infrastructure
+                                  solutions. Our expertise ensures high-quality
+                                  execution with modern engineering techniques,
+                                  delivering durable, cost-effective solutions
+                                  that drive urban development and industrial
+                                  growth.
+                                </p>
                               </div>
-                              <p>
-                                It is a long established fact that a reader will
-                                be distracted by the readable content of a page
-                                when looking at its layout. The point of using
-                                Lorem Ipsum is that it has a more-or-less normal
-                                distribution of letters, as opposed to using
-                                'Content here, content here', making it look
-                                like readable English. Many desktop publishing
-                                packages and web page editors now use Lorem
-                                Ipsum as their default model text, and a search
-                                for 'lorem ipsum'{" "}
-                              </p>
-
-                              <a href="" class="btn btn-primary">
-                                LEARN MORE
-                              </a>
                             </div>
-                          </div>
-
-                          <div class="col-sm-6">
-                            <div class="single_tab_img">
-                              <img src="assets/images/stab1.png" alt="" />
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div role="tabpanel" class="tab-pane" id="appdesign">
-                      <div class="single_service_tab">
-                        <div class="row">
-                          <div class="col-sm-6">
-                            <div class="single_tab_content">
-                              <div class="head_title">
-                                <h3>WEB DESIGN Two</h3>
-                                <div class="separator"></div>
+                            <div className="col-sm-6">
+                              <div className="single_tab_img">
+                                <img
+                                  src="assets/images/service/water-pipeline-work-services.jpeg"
+                                  alt="Civil Engineering"
+                                />
                               </div>
-                              <p>
-                                It is a long established fact that a reader will
-                                be distracted by the readable content of a page
-                                when looking at its layout. The point of using
-                                Lorem Ipsum is that it has a more-or-less normal
-                                distribution of letters, as opposed to using
-                                'Content here, content here', making it look
-                                like readable English. Many desktop publishing
-                                packages and web page editors now use Lorem
-                                Ipsum as their default model text, and a search
-                                for 'lorem ipsum'{" "}
-                              </p>
-
-                              <a href="" class="btn btn-primary">
-                                LEARN MORE
-                              </a>
-                            </div>
-                          </div>
-
-                          <div class="col-sm-6">
-                            <div class="single_tab_img">
-                              <img
-                                src="assets/images/featureslid1.jpg"
-                                alt=""
-                              />
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div role="tabpanel" class="tab-pane" id="graphicdesign">
-                      <div class="single_service_tab">
-                        <div class="row">
-                          <div class="col-sm-6">
-                            <div class="single_tab_content">
-                              <div class="head_title">
-                                <h3>WEB DESIGN Three</h3>
-                                <div class="separator"></div>
-                              </div>
-                              <p>
-                                It is a long established fact that a reader will
-                                be distracted by the readable content of a page
-                                when looking at its layout. The point of using
-                                Lorem Ipsum is that it has a more-or-less normal
-                                distribution of letters, as opposed to using
-                                'Content here, content here', making it look
-                                like readable English. Many desktop publishing
-                                packages and web page editors now use Lorem
-                                Ipsum as their default model text, and a search
-                                for 'lorem ipsum'{" "}
-                              </p>
-
-                              <a href="" class="btn btn-primary">
-                                LEARN MORE
-                              </a>
-                            </div>
-                          </div>
-
-                          <div class="col-sm-6">
-                            <div class="single_tab_img">
-                              <img src="assets/images/stab1.png" alt="" />
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div role="tabpanel" class="tab-pane" id="gamedesign">
-                      <div class="single_service_tab">
-                        <div class="row">
-                          <div class="col-sm-6">
-                            <div class="single_tab_content">
-                              <div class="head_title">
-                                <h3>WEB DESIGN Four</h3>
-                                <div class="separator"></div>
-                              </div>
-                              <p>
-                                It is a long established fact that a reader will
-                                be distracted by the readable content of a page
-                                when looking at its layout. The point of using
-                                Lorem Ipsum is that it has a more-or-less normal
-                                distribution of letters, as opposed to using
-                                'Content here, content here', making it look
-                                like readable English. Many desktop publishing
-                                packages and web page editors now use Lorem
-                                Ipsum as their default model text, and a search
-                                for 'lorem ipsum'{" "}
-                              </p>
-
-                              <a href="" class="btn btn-primary">
-                                LEARN MORE
-                              </a>
-                            </div>
-                          </div>
-
-                          <div class="col-sm-6">
-                            <div class="single_tab_img">
-                              <img
-                                src="assets/images/featureslid1.jpg"
-                                alt=""
-                              />
                             </div>
                           </div>
                         </div>
@@ -213,8 +110,98 @@ function Service() {
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+      <section id="othersservice" className="othersservice">
+        <div className="container">
+          <div className="row">
+            <div className="col-sm-12">
+              <div className="main_othersservice_area sections">
+                <div className="row">
+                  <div className="head_title">
+                    <h3>OTHER SERVICES</h3>
+                    <div className="separator"></div>
+                  </div>
+                  <div className="main_othersservice_content">
+                    <div className="col-sm-4">
+                      <div className="single_othersservice">
+                        <div className="single_othersservice_icon">
+                          <h4>
+                            <span>
+                              <i className="fa fa-industry"></i>
+                            </span>{" "}
+                            Earthworks & Excavation
+                          </h4>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-sm-4">
+                      <div className="single_othersservice">
+                        <div className="single_othersservice_icon">
+                          <h4>
+                            <span>
+                              <i className="fa fa-building"></i>
+                            </span>{" "}
+                            Foundation & Sewer Network Projects
+                          </h4>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-sm-4">
+                      <div className="single_othersservice">
+                        <div className="single_othersservice_icon">
+                          <h4>
+                            <span>
+                              <i className="fa fa-recycle"></i>
+                            </span>{" "}
+                            Sewage Pumping Stations & Treatment Plants
+                          </h4>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-sm-4">
+                      <div className="single_othersservice">
+                        <div className="single_othersservice_icon">
+                          <h4>
+                            <span>
+                              <i className="fa fa-wrench"></i>
+                            </span>{" "}
+                            Equipment & Tools Rental Services
+                          </h4>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-sm-4">
+                      <div className="single_othersservice">
+                        <div className="single_othersservice_icon">
+                          <h4>
+                            <span>
+                              <i className="fa fa-cogs"></i>
+                            </span>{" "}
+                            Project Management & Consultation
+                          </h4>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-sm-4">
+                      <div className="single_othersservice">
+                        <div className="single_othersservice_icon">
+                          <h4>
+                            <span>
+                              <i className="fa fa-map"></i>
+                            </span>{" "}
+                            Urban Development & Planning
+                          </h4>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </>
   );
 }
 

@@ -274,7 +274,7 @@ ul {
   margin-bottom: 4rem;
 }
 .overlay {
-  background-color: rgba(41, 39, 34, 0.75);
+  background-color: rgba(41, 39, 34, 0.45);
   width: 100%;
   height: 670px;
 }
@@ -636,7 +636,7 @@ input::-ms-input-placeholder {
 
 /*home section*/
 .home {
-  background: url(../images/homebg.jpg) no-repeat 100% 100%;
+  background: url(../images/homebg.jpeg) no-repeat 100% 100%;
   background-size: cover;
 }
 
@@ -715,11 +715,11 @@ input::-ms-input-placeholder {
   background: url(../images/stabmenubghv.png) no-repeat top center;
   width: 250px;
   height: 180px;
-  color: #fff;
+  /* color: #fff; */
 }
 .service_tabe ul li a:hover {
   background: url(../images/stabmenubghv.png) no-repeat top center;
-  color: #fff;
+  /* color: #fff; */
 }
 .service_tabe ul li a i {
   font-size: 2rem;
@@ -761,11 +761,6 @@ input::-ms-input-placeholder {
 }
 
 /*video section css*/
-
-.video {
-  background: url(../images/videobg.jpg) no-repeat top center;
-  background-size: cover;
-}
 .video .main_video {
   padding: 220px 0px 160px 0px;
   overflow: hidden;
@@ -911,7 +906,7 @@ input::-ms-input-placeholder {
 /*counter section css*/
 /*counter section css*/
 .counter {
-  background: url(../images/counterbg.jpg) no-repeat top center;
+  background: url(../images/worss.jpeg) no-repeat top center;
   background-size: cover;
 }
 .counter .main_counter_area {
@@ -1361,7 +1356,7 @@ button.btn-md:hover {
 
 /*clogo section css*/
 .clogo {
-  background: #eeeeee;
+  background: rgba(34, 61, 97, 0.64);
 }
 
 /*contact section css*/

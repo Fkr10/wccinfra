@@ -1,3 +1,11 @@
-# https://www.robotstxt.org/robotstxt.html
+# Allow all search engines
 User-agent: *
-Disallow:
+
+# Allow indexing only on the home page
+Allow: /
+
+# Block all other pages since only the home page is available
+Disallow: *
+
+# Sitemap for SEO
+Sitemap: https://wccinfra.com/sitemap.xml

@@ -2,167 +2,90 @@ import React from "react";
 
 function Footer() {
   return (
-    <>
-      <section id="footer" class="footer_widget">
-        <div class="video_overlay">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-12">
-                <div class="row">
-                  <div class="main_widget">
-                    <div class="col-sm-3 col-xs-12">
-                      <div
-                        class="single_widget wow fadeIn"
-                        data-wow-duration="800ms"
-                      >
-                        <div class="footer_logo">
-                          <img src="assets/images/logo.png" alt="" />
-                        </div>
-                        <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua. Ut enim ad minim veniam, quis
-                          nostrud exercitation ullamco laboris nisi ut aliquip
-                          ex ea commodo consequat.{" "}
-                        </p>
-                      </div>
-                    </div>
+    <footer className="footer">
+      <div className="container">
+        <div className="row">
+          <div className="col-sm-6">
+            <div className="footer_about">
+              <h4>About WCC Infra</h4>
+              <p>
+                WCC Infra Private Limited is a leader in infrastructure
+                development, specializing in pipeline construction, trenchless
+                technology, road development, sewer networks, and earthworks.
+                Our projects are built on quality, durability, and innovation to
+                drive progress.
+              </p>
+              <p>
+                We also provide <a href="www.scrapworker.com">Scrapworker</a>{" "}
+                Services, ensuring eco-friendly recycling,{" "}
+                <a href="www.scrapworker.com/metal-scrap">
+                  Metal scrap recycling
+                </a>{" "}
+                and waste management solutions.
+              </p>
+            </div>
+          </div>
 
-                    <div class="col-sm-3  col-xs-12">
-                      <div
-                        class="single_widget wow fadeIn"
-                        data-wow-duration="800ms"
-                      >
-                        <div class="footer_title">
-                          <h4>SITEMAP</h4>
-                          <div class="separator"></div>
-                        </div>
-                        <ul>
-                          <li>
-                            <a href="">Services</a>
-                          </li>
-                          <li>
-                            <a href="">About Us</a>
-                          </li>
-                          <li>
-                            <a href="">Our Team</a>
-                          </li>
-                          <li>
-                            <a href="">Portfolio</a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
+          <div className="col-sm-3">
+            <div className="footer_contact">
+              <h4>Contact Us</h4>
+              <p>
+                <strong>WCC Infra Pvt Ltd</strong>
+                <br />
+                A-23, Govind Puram, Ghaziabad, Uttar Pradesh, India
+                <br />
+                <strong>Phone:</strong> +91 983-7352-834
+                <br />
+                <strong>Email:</strong>{" "}
+                <a href="mailto:info@wccinfra.com">info@wccinfra.com</a>
+              </p>
+            </div>
+          </div>
 
-                    <div class="col-sm-3  col-xs-12">
-                      <div
-                        class="single_widget wow fadeIn"
-                        data-wow-duration="800ms"
-                      >
-                        <div class="footer_title">
-                          <h4>ACHIVES</h4>
-                          <div class="separator"></div>
-                        </div>
-                        <ul>
-                          <li>
-                            <a href="">January 2015</a>
-                          </li>
-                          <li>
-                            <a href="">February 2015</a>
-                          </li>
-                          <li>
-                            <a href="">March 2015</a>
-                          </li>
-                          <li>
-                            <a href="">April 2015</a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-
-                    <div class="col-sm-3 col-xs-12">
-                      <div
-                        class="single_widget wow fadeIn"
-                        data-wow-duration="800ms"
-                      >
-                        <div class="footer_title">
-                          <h4>NEWSLETTER</h4>
-                          <div class="separator"></div>
-                        </div>
-
-                        <div class="footer_subcribs_area">
-                          <p>
-                            Sign up for our mailing list to get latest updates
-                            and offers.
-                          </p>
-                          <form class="navbar-form navbar-left" role="search">
-                            <div class="form-group">
-                              <input
-                                type="text"
-                                class="form-control"
-                                placeholder="Search"
-                              />
-                              <button type="submit" class="submit_btn"></button>
-                            </div>
-                          </form>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+          <div className="col-sm-3">
+            <div className="footer_social">
+              <h4>Follow Us</h4>
+              <div className="social_icons">
+                <a
+                  href="https://www.facebook.com/wccinfra"
+                  className="social_link"
+                >
+                  <i className="fa fa-facebook"></i>
+                </a>
+                <a href="https://twitter.com/wccinfra" className="social_link">
+                  <i className="fa fa-twitter"></i>
+                </a>
+                <a
+                  href="https://www.linkedin.com/company/wccinfra"
+                  className="social_link"
+                >
+                  <i className="fa fa-linkedin"></i>
+                </a>
+                <a
+                  href="https://www.instagram.com/wccinfra"
+                  className="social_link"
+                >
+                  <i className="fa fa-instagram"></i>
+                </a>
+                <a
+                  href="https://www.youtube.com/channel/wccinfra"
+                  className="social_link"
+                >
+                  <i className="fa fa-youtube"></i>
+                </a>
               </div>
             </div>
           </div>
         </div>
-      </section>
 
-      <section class="footer">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-12">
-              <div class="main_footer">
-                <div class="row">
-                  <div class="col-sm-6 col-xs-12">
-                    <div class="copyright_text">
-                      <p class=" wow fadeInRight" data-wow-duration="1s">
-                        Made with <i class="fa fa-heart"></i> by{" "}
-                        <a href="https://bootstrapthemes.co">
-                          Bootstrap Themes
-                        </a>
-                        2016. All Rights Reserved
-                      </p>
-                    </div>
-                  </div>
-
-                  <div class="col-sm-6 col-xs-12">
-                    <div class="flowus">
-                      <a href="">
-                        <i class="fa fa-facebook"></i>
-                      </a>
-                      <a href="">
-                        <i class="fa fa-twitter"></i>
-                      </a>
-                      <a href="">
-                        <i class="fa fa-google-plus"></i>
-                      </a>
-                      <a href="">
-                        <i class="fa fa-instagram"></i>
-                      </a>
-                      <a href="">
-                        <i class="fa fa-youtube"></i>
-                      </a>
-                      <a href="">
-                        <i class="fa fa-dribbble"></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+        <div className="footer_bottom">
+          <p>
+            &copy; {new Date().getFullYear()} WCC Infra Pvt Ltd. All Rights
+            Reserved.
+          </p>
         </div>
-      </section>
-    </>
+      </div>
+    </footer>
   );
 }
 

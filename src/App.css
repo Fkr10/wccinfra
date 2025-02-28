@@ -1,0 +1,259 @@
+.service {
+  padding: 60px 0;
+  background: #f9f9f9;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.service_tabe_menu a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #333;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background: #eaeaea;
+  display: block;
+}
+
+.service_tabe_menu a:hover {
+  background: #a6ce3a;
+  color: #fff;
+}
+
+.single_service_tab {
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.head_title h3 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.separator {
+  width: 50px;
+  height: 4px;
+  background: #a6ce3a;
+  margin: 10px 0;
+}
+
+.single_service_tab p {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.6;
+}
+
+.btn-primary {
+  background: #a6ce3a;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn-primary:hover {
+  background: #0056b3;
+}
+
+.single_tab_img img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.additional_services {
+  margin-top: 40px;
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.additional_services h3 {
+  font-size: 22px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.additional_services ul {
+  list-style-type: none;
+  padding: 0;
+  font-weight: 800;
+}
+
+.additional_services ul li {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  position: relative;
+  font-weight: 500;
+}
+.features {
+  padding: 60px 0;
+  background: #f9f9f9;
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+.head_title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.head_title h3 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+}
+.separator {
+  width: 60px;
+  height: 4px;
+  background: #a6ce3a; /* Green theme */
+  margin: 10px auto;
+}
+.work_slide {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.work_image {
+  flex: 1;
+  margin-right: 20px;
+}
+.work_image img {
+  width: 100%;
+  border-radius: 8px;
+}
+.work_details {
+  flex: 1;
+}
+.work_details h4 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+.work_details p {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+.work_details ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 10px;
+}
+.work_details ul li {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 5px;
+}
+.work_details ul li span {
+  font-weight: bold;
+  color: #333;
+}
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #a6ce3a; /* Green theme */
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.btn:hover {
+  background: #218838;
+}
+.tabs_nav {
+  margin-top: 20px;
+  text-align: center;
+}
+.tab_item {
+  background: #eaeaea;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #333;
+}
+.tab_item.active,
+.tab_item:hover {
+  background: #a6ce3a;
+  color: #fff;
+}
+
+.footer {
+  background: #222;
+  color: #fff;
+  padding: 40px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer_about,
+.footer_contact,
+.footer_social {
+  margin-bottom: 20px;
+}
+
+.footer h4 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #28a745;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.footer p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.footer_contact a {
+  color: #28a745;
+  text-decoration: none;
+}
+
+.footer_contact a:hover {
+  text-decoration: underline;
+}
+
+.social_icons {
+  display: flex;
+  gap: 10px;
+}
+
+.social_link {
+  color: #fff;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.social_link:hover {
+  color: #28a745;
+}
+
+.footer_bottom {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  border-top: 1px solid #444;
+  padding-top: 10px;
+}
