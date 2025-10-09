@@ -1,0 +1,14 @@
+# Exclude a specific log file
+debug.log
+
+# Exclude an entire directory
+temp/
+
+# Exclude all files with the .tmp extension
+*.tmp
+
+# Exclude sensitive configuration files
+config/local.env
+
+#Exclude node_modules directory
+node_modules/
