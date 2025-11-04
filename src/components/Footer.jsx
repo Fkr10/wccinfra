@@ -4,48 +4,31 @@ const Footer = () => {
       <div className="container footer-top">
         <div className="row gy-4">
           <div className="col-lg-5 col-md-12 footer-about">
-            <a href="index.html" className="logo d-flex align-items-center">
-              <span className="sitename">OnePage</span>
+            <a href="/" className="logo d-flex align-items-center">
+              <span className="sitename">WCC Infra Private Limited</span>
             </a>
             <p>
-              Cras fermentum odio eu feugiat lide par naso tierra. Justo eget
-              nada terra videa magna derita valies darta donna mare fermentum
-              iaculis eu non diam phasellus.
+              WCC Infra Private Limited is a leading construction and infrastructure company specializing in water pipeline systems, road and highway construction, and comprehensive infrastructure development across India.
             </p>
             <div className="social-links d-flex mt-4">
-              <a href="">
-                <i className="bi bi-twitter-x"></i>
-              </a>
-              <a href="">
+              <a href="https://www.facebook.com/Wccinfra-61575128983217/" target="_blank" rel="noopener noreferrer">
                 <i className="bi bi-facebook"></i>
               </a>
-              <a href="">
+              <a href="https://www.instagram.com/wccinfra/" target="_blank" rel="noopener noreferrer">
                 <i className="bi bi-instagram"></i>
               </a>
-              <a href="">
+              <a href="https://www.linkedin.com/company/wccinfra" target="_blank" rel="noopener noreferrer">
                 <i className="bi bi-linkedin"></i>
               </a>
             </div>
           </div>
 
           <div className="col-lg-2 col-6 footer-links">
-            <h4>Useful Links</h4>
+            <h4>Why Choose Us</h4>
             <ul>
-              <li>
-                <a href="#">Home</a>
-              </li>
-              <li>
-                <a href="#">About us</a>
-              </li>
-              <li>
-                <a href="#">Services</a>
-              </li>
-              <li>
-                <a href="#">Terms of service</a>
-              </li>
-              <li>
-                <a href="#">Privacy policy</a>
-              </li>
+              <li>Experienced Engineers</li>
+              <li>Quality Construction</li>
+              <li>Timely Project Delivery</li>
             </ul>
           </div>
 
@@ -53,33 +36,33 @@ const Footer = () => {
             <h4>Our Services</h4>
             <ul>
               <li>
-                <a href="#">Web Design</a>
+                <a href="#">Infrastructure Development</a>
               </li>
               <li>
-                <a href="#">Web Development</a>
+                <a href="#">Water Pipeline Projects</a>
               </li>
               <li>
-                <a href="#">Product Management</a>
+                <a href="#">Road & Highway Construction</a>
               </li>
               <li>
-                <a href="#">Marketing</a>
+                <a href="#">Industrial Construction</a>
               </li>
               <li>
-                <a href="#">Graphic Design</a>
+                <a href="#">Civil Engineering Works</a>
               </li>
             </ul>
           </div>
 
           <div className="col-lg-3 col-md-12 footer-contact text-center text-md-start">
             <h4>Contact Us</h4>
-            <p>A108 Adam Street</p>
-            <p>New York, NY 535022</p>
-            <p>United States</p>
+            <p>WCC Infra Pvt. Ltd.</p>
+            <p>23 GOVIND PURAM , GHAZIABAD, Uttar Pradesh, India - 201013</p>
+            <p>India</p>
             <p className="mt-4">
-              <strong>Phone:</strong> <span>+1 5589 55488 55</span>
+              <strong>Phone:</strong> <span>+91 98765 43210</span>
             </p>
             <p>
-              <strong>Email:</strong> <span>info@example.com</span>
+              <strong>Email:</strong> <span>info@wccinfra.com</span>
             </p>
           </div>
         </div>
@@ -88,12 +71,11 @@ const Footer = () => {
       <div className="container copyright text-center mt-4">
         <p>
           © <span>Copyright</span>{" "}
-          <strong className="px-1 sitename">OnePage</strong>{" "}
+          <strong className="px-1 sitename">WCC Infra Private Limited</strong>{" "}
           <span>All Rights Reserved</span>
         </p>
         <div className="credits">
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>{" "}
-          Distributed by <a href="https://themewagon.com">ThemeWagon</a>
+          Designed & Developed by <a href="#">WCC Infra  Team</a>
         </div>
       </div>
     </footer>

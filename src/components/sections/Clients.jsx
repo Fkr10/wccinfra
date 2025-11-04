@@ -7,7 +7,17 @@ function Clients() {
         <div className="row gy-4">
           <div className="col-xl-2 col-md-3 col-6 client-logo">
             <img
-              src="assets/img/clients/client-1.png"
+              src="assets/img/clients/adani_logo.png"
+              className="img-fluid"
+              alt=""
+            />
+          </div>
+
+          
+
+          <div className="col-xl-2 col-md-3 col-6 client-logo">
+            <img
+              src="assets/img/clients/lt_full.png"
               className="img-fluid"
               alt=""
             />
@@ -15,7 +25,7 @@ function Clients() {
 
           <div className="col-xl-2 col-md-3 col-6 client-logo">
             <img
-              src="assets/img/clients/client-2.png"
+              src="assets/img/clients/upjalnigam.png"
               className="img-fluid"
               alt=""
             />
@@ -23,31 +33,21 @@ function Clients() {
 
           <div className="col-xl-2 col-md-3 col-6 client-logo">
             <img
-              src="assets/img/clients/client-3.png"
+              src="assets/img/clients/wave.png"
               className="img-fluid"
               alt=""
             />
           </div>
-
-          <div className="col-xl-2 col-md-3 col-6 client-logo">
+<div className="col-xl-2 col-md-3 col-6 client-logo">
             <img
-              src="assets/img/clients/client-4.png"
+              src="assets/img/clients/lt.png"
               className="img-fluid"
               alt=""
             />
           </div>
-
           <div className="col-xl-2 col-md-3 col-6 client-logo">
             <img
-              src="assets/img/clients/client-5.png"
-              className="img-fluid"
-              alt=""
-            />
-          </div>
-
-          <div className="col-xl-2 col-md-3 col-6 client-logo">
-            <img
-              src="assets/img/clients/client-6.png"
+              src="assets/img/clients/ckp.png"
               className="img-fluid"
               alt=""
             />

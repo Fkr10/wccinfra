@@ -39,15 +39,15 @@ const Hero = () => {
       <div className="container">
         <div className="row justify-content-center" data-aos="zoom-out">
           <div className="col-xl-7 col-lg-9 text-center">
-            <h1>One Page Bootstrap Website Template</h1>
+            <h1>WCC INFRA PVT. LTD.</h1>
             <p>
-              We are team of talented designers making websites with Bootstrap
+              From Pipelines to Roads, We Shape Infrastructure That Lasts. <br/>Building the Backbone of Tomorrow. 
             </p>
           </div>
         </div>
         <div className="text-center" data-aos="zoom-out" data-aos-delay="100">
           <a href="#about" className="btn-get-started">
-            Get Started
+            Explore Our Work
           </a>
         </div>
 
@@ -62,11 +62,10 @@ const Hero = () => {
                 <i className="bi bi-easel"></i>
               </div>
               <h4 className="title">
-                <a href="">Lorem Ipsum</a>
+                <a href="">Infrastructure Development</a>
               </h4>
               <p className="description">
-                Voluptatum deleniti atque corrupti quos dolores et quas
-                molestias excepturi
+                Delivering world-class infrastructure projects that strengthen communities and enable growth.
               </p>
             </div>
           </div>
@@ -81,11 +80,10 @@ const Hero = () => {
                 <i className="bi bi-gem"></i>
               </div>
               <h4 className="title">
-                <a href="">Sed ut perspiciatis</a>
+                <a href="">Water Pipeline Solutions</a>
               </h4>
               <p className="description">
-                Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore
+                Providing sustainable and efficient water management through advanced pipeline construction.
               </p>
             </div>
           </div>
@@ -100,11 +98,10 @@ const Hero = () => {
                 <i className="bi bi-geo-alt"></i>
               </div>
               <h4 className="title">
-                <a href="">Magni Dolores</a>
+                <a href="">Road & Highway Projects</a>
               </h4>
               <p className="description">
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                qui officia
+                Building durable, safe, and efficient road networks connecting cities and progress.
               </p>
             </div>
           </div>
@@ -119,11 +116,10 @@ const Hero = () => {
                 <i className="bi bi-command"></i>
               </div>
               <h4 className="title">
-                <a href="">Nemo Enim</a>
+                <a href="">Industrial & Civil Projects</a>
               </h4>
               <p className="description">
-                At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                blanditiis
+                Executing high-quality civil and industrial construction with precision and integrity.
               </p>
             </div>
           </div>

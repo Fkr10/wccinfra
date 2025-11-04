@@ -9,8 +9,7 @@ function About() {
           <br />
         </h2>
         <p>
-          Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
-          consectetur velit
+          WCC Infra Private Limited is a leading infrastructure and construction company dedicated to shaping the future of India’s built environment. With a strong reputation for reliability and quality, we specialize in delivering comprehensive solutions for public and private sector projects.
         </p>
       </div>
       <div className="container">
@@ -21,41 +20,38 @@ function About() {
             data-aos-delay="100"
           >
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Our core expertise spans:
             </p>
             <ul>
               <li>
                 <i className="bi bi-check2-circle"></i>{" "}
-                <span>
-                  Ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                </span>
+                <span>Water supply and pipeline infrastructure</span>
               </li>
               <li>
                 <i className="bi bi-check2-circle"></i>{" "}
-                <span>
-                  Duis aute irure dolor in reprehenderit in voluptate velit.
-                </span>
+                <span>Roads, highways, and urban development</span>
               </li>
               <li>
                 <i className="bi bi-check2-circle"></i>{" "}
-                <span>Ullamco laboris nisi ut aliquip ex ea commodo</span>
+                <span>Industrial and civil construction</span>
+              </li>
+              <li>
+                <i className="bi bi-check2-circle"></i>{" "}
+                <span>Turnkey project management and consultancy</span>
               </li>
             </ul>
+            <p>
+              We are committed to sustainable practices, safety, and delivering projects on time with the highest standards of engineering excellence.
+            </p>
           </div>
 
           <div className="col-lg-6" data-aos="fade-up" data-aos-delay="200">
             <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-              irure dolor in reprehenderit in voluptate velit esse cillum dolore
-              eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-              proident, sunt in culpa qui officia deserunt mollit anim id est
-              laborum.{" "}
+              Our work empowers communities and supports economic growth by enhancing connectivity, access to essential services, and urban transformation. We take pride in our transparent approach, skilled workforce, and a portfolio of successful projects across multiple states.
             </p>
-            <a href="#" className="read-more">
-              <span>Read More</span>
-              <i className="bi bi-arrow-right"></i>
-            </a>
+            <p>
+              Partner with WCC Infra for innovative, future-ready infrastructure solutions that make a lasting impact.
+            </p>
           </div>
         </div>
       </div>

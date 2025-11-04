@@ -1,38 +1,38 @@
 const testimonials = [
   {
     img: '/assets/img/testimonials/testimonials-1.jpg',
-    name: 'Saul Goodman',
-    role: 'Ceo & Founder',
+    name: 'Ahmed Al-Sayed',
+    role: 'Project Director, Dubai Development Corp',
     text:
-      'Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.'
+      'WCC Infrastructure delivered exceptional results on our commercial complex project. Their innovative construction methods reduced completion time by 30% while maintaining the highest quality standards. Their commitment to safety and efficiency was outstanding.'
   },
   {
     img: '/assets/img/testimonials/testimonials-2.jpg',
-    name: 'Sara Wilsson',
-    role: 'Designer',
+    name: 'Sarah Mitchell',
+    role: 'Head of Infrastructure, City Council',
     text:
-      'Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.'
+      'The road infrastructure project completed by WCC Infra was remarkable. They managed complex urban challenges effectively, minimizing disruption to local businesses. The quality of work and adherence to environmental standards exceeded our expectations.'
   },
   {
     img: '/assets/img/testimonials/testimonials-3.jpg',
-    name: 'Jena Karlis',
-    role: 'Store Owner',
+    name: 'Rajesh Kumar',
+    role: 'Managing Director, Industrial Parks Authority',
     text:
-      'Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.'
+      'WCC Infrastructure transformed our industrial park development. Their expertise in sustainable infrastructure and modern construction techniques helped us create a world-class facility. The project was delivered on time and within budget.'
   },
   {
     img: '/assets/img/testimonials/testimonials-4.jpg',
-    name: 'Matt Brandon',
-    role: 'Freelancer',
+    name: 'Lisa Wong',
+    role: 'Operations Manager, Port Authority',
     text:
-      'Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.'
+      'The port expansion project handled by WCC Infra was exemplary. Their team expertise in marine infrastructure and logistics planning ensured smooth execution. The new facilities have increased our cargo handling capacity by 50%.'
   },
   {
     img: '/assets/img/testimonials/testimonials-5.jpg',
-    name: 'John Larson',
-    role: 'Entrepreneur',
+    name: 'James Richardson',
+    role: 'Director, Green Energy Solutions',
     text:
-      'Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.'
+      'WCC Infrastructures work on our renewable energy facility was outstanding. Their innovative approach to sustainable construction and infrastructure development helped us achieve LEED Platinum certification. Their expertise in eco-friendly construction practices is unmatched.'
   }
 ]
 

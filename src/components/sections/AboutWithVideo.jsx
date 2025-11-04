@@ -12,7 +12,7 @@ function AboutWithVideo() {
           >
             <img src="assets/img/about.jpg" className="img-fluid" alt="" />
             <a
-              href="https://www.youtube.com/watch?v=Y7f98aduVJ8"
+              href="https://www.youtube.com/watch?v=wcc-infrastructure-overview"
               className="glightbox pulsating-play-btn"
             ></a>
           </div>
@@ -22,40 +22,38 @@ function AboutWithVideo() {
             data-aos-delay="200"
           >
             <h3>
-              Voluptatem dignissimos provident quasi corporis voluptates sit
-              assumenda.
+              Building Robust Infrastructure Solutions for Modern Enterprises
             </h3>
             <p className="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              At WCC Infrastructure, we specialize in delivering cutting-edge infrastructure solutions
+              that power the digital transformation of businesses across industries.
             </p>
             <ul>
               <li>
                 <i className="bi bi-check2-all"></i>{" "}
                 <span>
-                  Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  State-of-the-art data center facilities with 99.999% uptime guarantee
                 </span>
               </li>
               <li>
                 <i className="bi bi-check2-all"></i>{" "}
                 <span>
-                  Duis aute irure dolor in reprehenderit in voluptate velit.
+                  Comprehensive cloud infrastructure services with hybrid and multi-cloud capabilities
                 </span>
               </li>
               <li>
                 <i className="bi bi-check2-all"></i>{" "}
                 <span>
-                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-                  aute irure dolor in reprehenderit in voluptate trideta
-                  storacalaperda mastiro dolore eu fugiat nulla pariatur.
+                  Advanced networking solutions with redundant connectivity and world-class security
+                  measures to ensure seamless business operations and data protection
                 </span>
               </li>
             </ul>
             <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-              irure dolor in reprehenderit in voluptate velit esse cillum dolore
-              eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-              proident
+              Our infrastructure solutions are designed to scale with your business needs,
+              providing flexibility, reliability, and performance while optimizing costs.
+              With WCC Infrastructure as your partner, you can focus on your core business
+              while we manage your critical infrastructure needs.
             </p>
           </div>
         </div>

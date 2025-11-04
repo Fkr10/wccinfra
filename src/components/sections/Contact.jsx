@@ -122,7 +122,7 @@ function Contact() {
               <i className="bi bi-geo-alt flex-shrink-0"></i>
               <div>
                 <h3>Address</h3>
-                <p>A108 Adam Street, New York, NY 535022</p>
+                <p>23 GOVIND PURAM , GHAZIABAD, Uttar Pradesh, India - 201013</p>
               </div>
             </div>
 

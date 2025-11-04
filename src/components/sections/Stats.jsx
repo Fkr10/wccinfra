@@ -8,29 +8,29 @@ function Stats() {
         <div className="row gy-4">
           <div className="col-lg-3 col-md-6">
             <div className="stats-item text-center w-100 h-100">
-              <CountUp start={0} end={232} duration={1} />
-              <p>Clients</p>
+              <CountUp start={0} end={150} duration={1} />
+              <p>Projects Completed</p>
             </div>
           </div>
 
           <div className="col-lg-3 col-md-6">
             <div className="stats-item text-center w-100 h-100">
-              <CountUp start={0} end={521} duration={1} />
-              <p>Projects</p>
+              <CountUp start={0} end={25} duration={1} />
+              <p>Ongoing Projects</p>
             </div>
           </div>
 
           <div className="col-lg-3 col-md-6">
             <div className="stats-item text-center w-100 h-100">
-              <CountUp start={0} end={1453} duration={1} />
-              <p>Hours Of Support</p>
+              <CountUp start={0} end={50} duration={1} />
+              <p>Cities Covered</p>
             </div>
           </div>
 
           <div className="col-lg-3 col-md-6">
             <div className="stats-item text-center w-100 h-100">
-              <CountUp start={0} end={32} duration={1} />
-              <p>Workers</p>
+              <CountUp start={0} end={120} duration={1} />
+              <p>Skilled Professionals</p>
             </div>
           </div>
         </div>

@@ -16,16 +16,13 @@ function HomePage() {
   return (
     <main className="main">
       <Hero />
-      <About />
       <Stats />
-      <AboutWithVideo />
+      <About />
       <Clients />
-      <Testimonials />
       <Services />
       <CallToAction />
       <Portfolio />
       <Teams />
-      <Pricing />
       <Faq />
       <Contact />
     </main>

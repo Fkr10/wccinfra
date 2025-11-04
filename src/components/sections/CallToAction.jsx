@@ -12,15 +12,12 @@ const CallToAction = () => {
         >
           <div className="col-xl-10">
             <div className="text-center">
-              <h3>Call To Action</h3>
+              <h3>Ready to Build the Future?</h3>
               <p>
-                Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                cupidatat non proident, sunt in culpa qui officia deserunt
-                mollit anim id est laborum.
+                Partner with WCC Infra Private Limited for innovative, reliable, and sustainable infrastructure solutions. Whether you are planning a new project or seeking expert consultation, our team is here to help you achieve your vision with excellence and integrity.
               </p>
-              <a className="cta-btn" href="#">
-                Call To Action
+              <a className="cta-btn" href="#contact">
+                Contact Us Today
               </a>
             </div>
           </div>
