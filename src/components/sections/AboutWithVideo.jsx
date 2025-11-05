@@ -10,7 +10,7 @@ function AboutWithVideo() {
             data-aos="fade-up"
             data-aos-delay="100"
           >
-            <img src="assets/img/about.jpg" className="img-fluid" alt="" />
+            <img src="assets/img/about.jpg" className="img-fluid" alt="WCC Infra project" />
             <a
               href="https://www.youtube.com/watch?v=wcc-infrastructure-overview"
               className="glightbox pulsating-play-btn"
@@ -21,39 +21,35 @@ function AboutWithVideo() {
             data-aos="fade-up"
             data-aos-delay="200"
           >
-            <h3>
-              Building Robust Infrastructure Solutions for Modern Enterprises
-            </h3>
+            <h3>Delivering End-to-End Infrastructure Projects</h3>
             <p className="fst-italic">
-              At WCC Infrastructure, we specialize in delivering cutting-edge infrastructure solutions
-              that power the digital transformation of businesses across industries.
+              At WCC Infra Private Limited, we deliver high-quality construction and infrastructure
+              solutions across water supply, transportation and industrial sectors.
             </p>
             <ul>
               <li>
                 <i className="bi bi-check2-all"></i>{" "}
                 <span>
-                  State-of-the-art data center facilities with 99.999% uptime guarantee
+                  Turnkey water pipeline projects with proven hydraulic and civil expertise
                 </span>
               </li>
               <li>
                 <i className="bi bi-check2-all"></i>{" "}
                 <span>
-                  Comprehensive cloud infrastructure services with hybrid and multi-cloud capabilities
+                  Road and highway construction using modern materials and safety-first practices
                 </span>
               </li>
               <li>
                 <i className="bi bi-check2-all"></i>{" "}
                 <span>
-                  Advanced networking solutions with redundant connectivity and world-class security
-                  measures to ensure seamless business operations and data protection
+                  Industrial and civil construction with strong project management and quality control
                 </span>
               </li>
             </ul>
             <p>
-              Our infrastructure solutions are designed to scale with your business needs,
-              providing flexibility, reliability, and performance while optimizing costs.
-              With WCC Infrastructure as your partner, you can focus on your core business
-              while we manage your critical infrastructure needs.
+              Our team combines engineering experience, modern equipment and sustainable practices to
+              deliver projects on time and on budget. Partner with WCC Infra to build reliable,
+              future-ready infrastructure that supports communities and industries.
             </p>
           </div>
         </div>
