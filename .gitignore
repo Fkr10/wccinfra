@@ -12,3 +12,6 @@ config/local.env
 
 #Exclude node_modules directory
 node_modules/
+
+# Exclude build output directory
+dist/
