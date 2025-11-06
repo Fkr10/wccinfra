@@ -146,7 +146,7 @@ function Contact() {
               <i className="bi bi-envelope flex-shrink-0"></i>
               <div>
                 <h3>Email Us</h3>
-                <p>info@example.com</p>
+                <p>contact@wccinfra.com</p>
               </div>
             </div>
           </div>

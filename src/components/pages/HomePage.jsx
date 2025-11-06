@@ -7,9 +7,6 @@ import Portfolio from "../sections/Portfolio";
 import Services from "../sections/Services";
 import Stats from "../sections/Stats";
 import Teams from "../sections/Teams";
-import Testimonials from "../sections/Testimonials";
-import Pricing from "../sections/Pricing";
-import Faq from "../sections/Faq";
 import Contact from "../sections/Contact";
 
 function HomePage() {
@@ -23,7 +20,6 @@ function HomePage() {
       <CallToAction />
       <Portfolio />
       <Teams />
-      <Faq />
       <Contact />
     </main>
   );
