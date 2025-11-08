@@ -6,8 +6,8 @@ function Portfolio() {
       <div className="container section-title" data-aos="fade-up">
         <h2>Portfolio</h2>
         <p>
-          Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
-          consectetur velit
+          Selected projects showcasing WCC Infra's capabilities across water
+          pipelines, road networks and industrial construction.
         </p>
       </div>
 
@@ -26,9 +26,9 @@ function Portfolio() {
             <li data-filter="*" className="filter-active">
               All
             </li>
-            <li data-filter=".filter-app">App</li>
-            <li data-filter=".filter-product">Card</li>
-            <li data-filter=".filter-branding">Web</li>
+            <li data-filter=".filter-pipelines">Pipelines</li>
+            <li data-filter=".filter-roads">Roads</li>
+            <li data-filter=".filter-industrial">Industrial</li>
           </ul>
 
           <div
@@ -36,19 +36,19 @@ function Portfolio() {
             data-aos="fade-up"
             data-aos-delay="200"
           >
-            <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+            <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-pipelines">
               <img
                 src="assets/img/masonry-portfolio/masonry-portfolio-1.jpg"
                 className="img-fluid"
-                alt=""
+                alt="Ghaziabad water pipeline"
               />
               <div className="portfolio-info">
-                <h4>App 1</h4>
-                <p>Lorem ipsum, dolor sit</p>
+                <h4>Ghaziabad Water Pipeline</h4>
+                <p>Turnkey potable water pipeline and distribution network.</p>
                 <a
                   href="assets/img/masonry-portfolio/masonry-portfolio-1.jpg"
-                  title="App 1"
-                  data-gallery="portfolio-gallery-app"
+                  title="Ghaziabad Water Pipeline"
+                  data-gallery="portfolio-gallery-pipelines"
                   className="glightbox preview-link"
                 >
                   <i className="bi bi-zoom-in"></i>
@@ -63,19 +63,19 @@ function Portfolio() {
               </div>
             </div>
 
-            <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+            <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-roads">
               <img
                 src="assets/img/masonry-portfolio/masonry-portfolio-2.jpg"
                 className="img-fluid"
-                alt=""
+                alt="National highway upgrade"
               />
               <div className="portfolio-info">
-                <h4>Product 1</h4>
-                <p>Lorem ipsum, dolor sit</p>
+                <h4>National Highway Upgrade</h4>
+                <p>Capacity expansion and resurfacing of a major highway corridor.</p>
                 <a
                   href="assets/img/masonry-portfolio/masonry-portfolio-2.jpg"
-                  title="Product 1"
-                  data-gallery="portfolio-gallery-product"
+                  title="National Highway Upgrade"
+                  data-gallery="portfolio-gallery-roads"
                   className="glightbox preview-link"
                 >
                   <i className="bi bi-zoom-in"></i>
@@ -90,19 +90,19 @@ function Portfolio() {
               </div>
             </div>
 
-            <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+            <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-industrial">
               <img
                 src="assets/img/masonry-portfolio/masonry-portfolio-3.jpg"
                 className="img-fluid"
-                alt=""
+                alt="Industrial park development"
               />
               <div className="portfolio-info">
-                <h4>Branding 1</h4>
-                <p>Lorem ipsum, dolor sit</p>
+                <h4>Industrial Park Development</h4>
+                <p>Infrastructure and civil works for a multi-tenant industrial park.</p>
                 <a
                   href="assets/img/masonry-portfolio/masonry-portfolio-3.jpg"
-                  title="Branding 1"
-                  data-gallery="portfolio-gallery-branding"
+                  title="Industrial Park Development"
+                  data-gallery="portfolio-gallery-industrial"
                   className="glightbox preview-link"
                 >
                   <i className="bi bi-zoom-in"></i>
@@ -117,19 +117,19 @@ function Portfolio() {
               </div>
             </div>
 
-            <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+            <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-pipelines">
               <img
                 src="assets/img/masonry-portfolio/masonry-portfolio-4.jpg"
                 className="img-fluid"
                 alt=""
               />
               <div className="portfolio-info">
-                <h4>App 2</h4>
-                <p>Lorem ipsum, dolor sit</p>
+                <h4>River Crossing Pipeline</h4>
+                <p>Trenchless river crossing and protective encasement works.</p>
                 <a
                   href="assets/img/masonry-portfolio/masonry-portfolio-4.jpg"
-                  title="App 2"
-                  data-gallery="portfolio-gallery-app"
+                  title="River Crossing Pipeline"
+                  data-gallery="portfolio-gallery-pipelines"
                   className="glightbox preview-link"
                 >
                   <i className="bi bi-zoom-in"></i>
@@ -144,19 +144,19 @@ function Portfolio() {
               </div>
             </div>
 
-            <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+            <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-roads">
               <img
                 src="assets/img/masonry-portfolio/masonry-portfolio-5.jpg"
                 className="img-fluid"
                 alt=""
               />
               <div className="portfolio-info">
-                <h4>Product 2</h4>
-                <p>Lorem ipsum, dolor sit</p>
+                <h4>Urban Road Rehabilitation</h4>
+                <p>Rehabilitation of urban streets including drainage and sidewalks.</p>
                 <a
                   href="assets/img/masonry-portfolio/masonry-portfolio-5.jpg"
-                  title="Product 2"
-                  data-gallery="portfolio-gallery-product"
+                  title="Urban Road Rehabilitation"
+                  data-gallery="portfolio-gallery-roads"
                   className="glightbox preview-link"
                 >
                   <i className="bi bi-zoom-in"></i>
@@ -171,19 +171,19 @@ function Portfolio() {
               </div>
             </div>
 
-            <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+            <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-industrial">
               <img
                 src="assets/img/masonry-portfolio/masonry-portfolio-6.jpg"
                 className="img-fluid"
                 alt=""
               />
               <div className="portfolio-info">
-                <h4>Branding 2</h4>
-                <p>Lorem ipsum, dolor sit</p>
+                <h4>Factory Civil Works</h4>
+                <p>Structural and civil works for a manufacturing facility.</p>
                 <a
                   href="assets/img/masonry-portfolio/masonry-portfolio-6.jpg"
-                  title="Branding 2"
-                  data-gallery="portfolio-gallery-branding"
+                  title="Factory Civil Works"
+                  data-gallery="portfolio-gallery-industrial"
                   className="glightbox preview-link"
                 >
                   <i className="bi bi-zoom-in"></i>
@@ -198,19 +198,19 @@ function Portfolio() {
               </div>
             </div>
 
-            <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+            <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-pipelines">
               <img
                 src="assets/img/masonry-portfolio/masonry-portfolio-7.jpg"
                 className="img-fluid"
                 alt=""
               />
               <div className="portfolio-info">
-                <h4>App 3</h4>
-                <p>Lorem ipsum, dolor sit</p>
+                <h4>Subsurface Pipeline Network</h4>
+                <p>Complex subsurface works and jointing for large-diameter mains.</p>
                 <a
                   href="assets/img/masonry-portfolio/masonry-portfolio-7.jpg"
-                  title="App 3"
-                  data-gallery="portfolio-gallery-app"
+                  title="Subsurface Pipeline Network"
+                  data-gallery="portfolio-gallery-pipelines"
                   className="glightbox preview-link"
                 >
                   <i className="bi bi-zoom-in"></i>
@@ -225,19 +225,19 @@ function Portfolio() {
               </div>
             </div>
 
-            <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+            <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-roads">
               <img
                 src="assets/img/masonry-portfolio/masonry-portfolio-8.jpg"
                 className="img-fluid"
                 alt=""
               />
               <div className="portfolio-info">
-                <h4>Product 3</h4>
-                <p>Lorem ipsum, dolor sit</p>
+                <h4>Bridge Approach Works</h4>
+                <p>Approach and highway tie-ins for major bridge construction.</p>
                 <a
                   href="assets/img/masonry-portfolio/masonry-portfolio-8.jpg"
-                  title="Product 3"
-                  data-gallery="portfolio-gallery-product"
+                  title="Bridge Approach Works"
+                  data-gallery="portfolio-gallery-roads"
                   className="glightbox preview-link"
                 >
                   <i className="bi bi-zoom-in"></i>
@@ -252,19 +252,19 @@ function Portfolio() {
               </div>
             </div>
 
-            <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+            <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-industrial">
               <img
                 src="assets/img/masonry-portfolio/masonry-portfolio-9.jpg"
                 className="img-fluid"
                 alt=""
               />
               <div className="portfolio-info">
-                <h4>Branding 3</h4>
-                <p>Lorem ipsum, dolor sit</p>
+                <h4>Port Logistics Yard</h4>
+                <p>Marine logistics yard, paving and material handling infrastructure.</p>
                 <a
                   href="assets/img/masonry-portfolio/masonry-portfolio-9.jpg"
-                  title="Branding 2"
-                  data-gallery="portfolio-gallery-branding"
+                  title="Port Logistics Yard"
+                  data-gallery="portfolio-gallery-industrial"
                   className="glightbox preview-link"
                 >
                   <i className="bi bi-zoom-in"></i>

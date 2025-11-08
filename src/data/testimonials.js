@@ -32,7 +32,7 @@ const testimonials = [
     name: 'James Richardson',
     role: 'Director, Green Energy Solutions',
     text:
-      'WCC Infrastructures work on our renewable energy facility was outstanding. Their innovative approach to sustainable construction and infrastructure development helped us achieve LEED Platinum certification. Their expertise in eco-friendly construction practices is unmatched.'
+      "WCC Infra's work on our renewable energy facility was outstanding. Their innovative approach to sustainable construction and infrastructure development helped us achieve LEED Platinum certification. Their expertise in eco-friendly construction practices is unmatched."
   }
 ]
 
