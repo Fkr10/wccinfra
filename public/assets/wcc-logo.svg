@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 48" fill="none" role="img" aria-label="WCC Infra Logo">
+  <!-- Orange badge block -->
+  <rect x="0" y="4" width="40" height="40" rx="8" fill="#ea580c" />
+
+  <!-- WCC text inside badge -->
+  <text x="20" y="30" font-family="'Arial Black', 'Arial', sans-serif" font-weight="900" font-size="13" fill="white"
+    text-anchor="middle" letter-spacing="-0.5">WCC</text>
+
+  <!-- Vertical pipeline pipe symbol (left stripe on badge) -->
+  <rect x="2" y="4" width="5" height="40" rx="2.5" fill="white" opacity="0.15" />
+
+  <!-- Company wordmark -->
+  <text x="50" y="22" font-family="'Arial Black', 'Arial', sans-serif" font-weight="900" font-size="17" fill="#ffffff"
+    letter-spacing="-0.8">WCC INFRA</text>
+
+  <!-- Sub-label -->
+  <text x="51" y="35" font-family="'Arial', sans-serif" font-weight="600" font-size="7.5" fill="#a1a1aa"
+    letter-spacing="2.5">PRIVATE LIMITED</text>
+
+  <!-- Orange underline accent on wordmark -->
+  <rect x="50" y="38" width="46" height="2" rx="1" fill="#ea580c" />
+</svg>
