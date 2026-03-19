@@ -4,28 +4,28 @@ import { TrendingUp } from "lucide-react";
 
 const stats = [
     {
-        value: 150,
+        value: 85,
         suffix: "+",
         label: "Projects Delivered",
         sub: "Across India",
         color: "from-orange-500 to-amber-400",
     },
     {
-        value: 15,
+        value: 12,
         suffix: "+",
         label: "Years of Excellence",
-        sub: "Est. 2009",
+        sub: "Est. 2012",
         color: "from-orange-600 to-orange-400",
     },
     {
-        value: 50,
+        value: 28,
         suffix: "+",
         label: "Cities Covered",
         sub: "Pan-India Reach",
         color: "from-amber-500 to-yellow-400",
     },
     {
-        value: 120,
+        value: 65,
         suffix: "+",
         label: "Skilled Engineers",
         sub: "On Ground",

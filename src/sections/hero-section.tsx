@@ -136,7 +136,7 @@ export default function HeroSection() {
                     <div className="flex items-center ml-1">
                         <div className="size-7 rounded-full border-2 border-orange-500 bg-orange-600 flex items-center justify-center font-bold text-[10px]">WCC</div>
                     </div>
-                    <span>150+</span>
+                    <span>85+</span>
                     <div className="h-5 w-px mx-1 bg-white/30 rounded-full" />
                     <span>Large-Scale Projects Completed</span>
                 </AnimatedContent>

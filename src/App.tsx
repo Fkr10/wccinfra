@@ -10,6 +10,7 @@ import StandardsSection from "./sections/standards-section";
 import ClientsSection from "./sections/clients-section";
 import CareersSection from "./sections/careers-section";
 import PipelineSection from "./sections/pipeline-section";
+import ImpactSection from "./sections/impact-section";
 
 
 export default function App() {
@@ -22,7 +23,7 @@ export default function App() {
             <ClientsSection />
             <FeaturesSection />
             <PipelineSection />
-
+            <ImpactSection />
             <StandardsSection />
             <OurTeamSection />
             <CareersSection />

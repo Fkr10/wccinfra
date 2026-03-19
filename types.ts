@@ -36,6 +36,7 @@ export interface ITeamMember {
     role: string;
     status: string;
     instagram?: string;
+    email?: string;
 };
 
 export interface IClient {

@@ -61,12 +61,14 @@ export default function OurTeamSection() {
                                                 </svg>
                                             </a>
                                         )}
-                                        <a
-                                            href={`mailto:${member.name.toLowerCase().replace(' ', '.')}@wccinfra.com`}
-                                            className="size-10 rounded-full bg-white/10 backdrop-blur-md border border-white/20 flex items-center justify-center text-white hover:bg-orange-600 hover:border-orange-500 transition-all cursor-pointer"
-                                        >
-                                            <Mail size={18} />
-                                        </a>
+                                        {member.email && (
+                                            <a
+                                                href={`mailto:${member.email}`}
+                                                className="size-10 rounded-full bg-white/10 backdrop-blur-md border border-white/20 flex items-center justify-center text-white hover:bg-orange-600 hover:border-orange-500 transition-all cursor-pointer"
+                                            >
+                                                <Mail size={18} />
+                                            </a>
+                                        )}
                                     </div>
                                 </div>
                             </div>

@@ -1,4 +1,4 @@
-import { Linkedin, MapPin, Mail, Phone, ArrowUpRight, Building2 } from "lucide-react";
+import { Linkedin, MapPin, Mail, ArrowUpRight, Building2 } from "lucide-react";
 import AnimatedContent from "./animated-content";
 
 const navLinks = [
@@ -75,10 +75,6 @@ export default function Footer() {
                             <a href="mailto:info@wccinfra.com" className="flex items-center gap-3 text-white/50 hover:text-orange-400 transition-colors group">
                                 <Mail size={16} className="text-orange-600 group-hover:scale-110 transition-transform" />
                                 <span className="text-sm">info@wccinfra.com</span>
-                            </a>
-                            <a href="tel:+919876543210" className="flex items-center gap-3 text-white/50 hover:text-orange-400 transition-colors group">
-                                <Phone size={16} className="text-orange-600 group-hover:scale-110 transition-transform" />
-                                <span className="text-sm">+91 98765 43210</span>
                             </a>
                         </div>
                     </AnimatedContent>

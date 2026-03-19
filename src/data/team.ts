@@ -6,6 +6,7 @@ export const team: ITeamMember[] = [
         role: "Managing Director & CEO",
         status: "Strategic Vision",
         instagram: "waseem_khan_choudhary",
+        email: "waseem@wccinfra.com",
         image: "/assets/leaders/waseem.jpg",
     },
     {
@@ -13,6 +14,7 @@ export const team: ITeamMember[] = [
         role: "Managing Director",
         status: "Operational Excellence",
         instagram: "haseen_choudhary_0001",
+        email: "hasin@wccinfra.com",
         image: "/assets/leaders/hasin.jpg",
     },
     {
@@ -20,6 +22,7 @@ export const team: ITeamMember[] = [
         role: "Project Delivery Head",
         status: "Execution Lead",
         instagram: "mohseen920",
+        email: "mohseen@wccinfra.com",
         image: "/assets/leaders/mohseen.jpg",
     },
     {
@@ -27,6 +30,7 @@ export const team: ITeamMember[] = [
         role: "HOD Construction",
         status: "Build Specialist",
         instagram: "anas_choudhary._",
+        email: "anas@wccinfra.com",
         image: "/assets/leaders/anas.jpg",
     }
 ];
