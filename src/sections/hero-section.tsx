@@ -39,72 +39,6 @@ export default function HeroSection() {
                 </svg>
             </div>
 
-            {/* === FLOATING BLUEPRINT ELEMENTS (left side) === */}
-            <div className="absolute left-8 top-1/4 z-10 hidden lg:block pointer-events-none select-none">
-                <div className="animate-float-up" style={{ animationDelay: "0s" }}>
-                    <div className="bg-blue-950/60 border border-blue-400/20 backdrop-blur-md rounded-xl p-3 w-48 mb-4 shadow-2xl shadow-blue-900/20">
-                        <p className="text-blue-400 font-mono text-[9px] uppercase tracking-widest mb-2 opacity-60">Blueprint REV.04</p>
-                        <svg width="165" height="60" viewBox="0 0 165 60" className="opacity-50">
-                            <circle cx="30" cy="30" r="22" stroke="#60a5fa" strokeWidth="1.5" fill="none" />
-                            <circle cx="30" cy="30" r="14" stroke="#93c5fd" strokeWidth="1" fill="none" strokeDasharray="4 2" />
-                            <circle cx="30" cy="30" r="4" fill="#3b82f6" opacity="0.8" />
-                            <line x1="60" y1="10" x2="160" y2="10" stroke="#60a5fa" strokeWidth="0.8" opacity="0.4" />
-                            <line x1="60" y1="30" x2="160" y2="30" stroke="#60a5fa" strokeWidth="0.8" opacity="0.4" />
-                            <line x1="60" y1="50" x2="160" y2="50" stroke="#60a5fa" strokeWidth="0.8" opacity="0.4" />
-                            <text x="65" y="23" fill="#93c5fd" fontSize="7" fontFamily="monospace">PIPE Ø 600mm</text>
-                            <text x="65" y="43" fill="#93c5fd" fontSize="7" fontFamily="monospace">WALL t=12mm</text>
-                        </svg>
-                    </div>
-                </div>
-                <div className="animate-float-slow" style={{ animationDelay: "1.5s" }}>
-                    <div className="bg-orange-950/50 border border-orange-500/20 backdrop-blur-md rounded-xl p-3 w-40 shadow-2xl shadow-orange-900/10">
-                        <p className="text-orange-400 font-mono text-[9px] uppercase tracking-widest mb-2 opacity-60">Site Status</p>
-                        <div className="space-y-1.5">
-                            {[
-                                { label: "Foundation", pct: "100%" },
-                                { label: "Structure", pct: "72%" },
-                                { label: "Pipeline", pct: "45%" },
-                            ].map((item) => (
-                                <div key={item.label}>
-                                    <div className="flex justify-between mb-0.5">
-                                        <span className="text-white/40 text-[8px] font-mono">{item.label}</span>
-                                        <span className="text-orange-400 text-[8px] font-mono">{item.pct}</span>
-                                    </div>
-                                    <div className="h-1 bg-white/10 rounded-full overflow-hidden">
-                                        <div
-                                            className="h-full bg-gradient-to-r from-orange-600 to-amber-400 rounded-full animate-build-progress"
-                                            style={{ width: item.pct }}
-                                        />
-                                    </div>
-                                </div>
-                            ))}
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            {/* === FLOATING METRIC CARD (bottom right) === */}
-            <div className="absolute bottom-28 right-10 z-10 hidden lg:block pointer-events-none select-none">
-                <div className="animate-float-slow" style={{ animationDelay: "0.8s" }}>
-                    <div className="bg-zinc-900/90 border border-white/10 backdrop-blur-xl rounded-2xl p-4 w-56 shadow-2xl shadow-black/50">
-                        <div className="flex items-center gap-2 mb-3">
-                            <div className="size-2 rounded-full bg-emerald-400 animate-blink-dot" />
-                            <span className="text-white/40 font-mono text-[9px] uppercase tracking-widest">Live Site Update</span>
-                        </div>
-                        <div className="flex items-end gap-2 mb-3">
-                            <span className="text-4xl font-black text-white font-urbanist leading-none">98<span className="text-orange-500">%</span></span>
-                            <span className="text-white/40 text-xs font-mono mb-1">On-Time Rate</span>
-                        </div>
-                        <div className="h-1.5 bg-white/10 rounded-full overflow-hidden mb-3">
-                            <div className="h-full bg-gradient-to-r from-orange-600 to-amber-400 animate-build-progress rounded-full" style={{ width: "98%" }} />
-                        </div>
-                        <div className="flex items-center gap-1.5">
-                            <div className="h-px flex-1 bg-white/10" />
-                            <p className="text-white/20 font-mono text-[8px]">WCC_FIELD_MONITOR_v4</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
             {/* === HARD HAT FLOATING ICON (top left) === */}
             <div className="absolute top-24 left-16 z-10 hidden xl:block pointer-events-none select-none">
@@ -133,9 +67,9 @@ export default function HeroSection() {
                     <div className="flex items-center ml-1">
                         <div className="size-7 rounded-full border-2 border-orange-500 bg-orange-600 flex items-center justify-center font-black text-[10px]">WCC</div>
                     </div>
-                    <span className="text-sm font-semibold">85+</span>
+                    <span className="text-sm font-semibold">Est. 2021</span>
                     <div className="h-4 w-px mx-1 bg-white/20 rounded-full" />
-                    <span className="text-sm text-white/70">Large-Scale Projects Completed</span>
+                    <span className="text-sm text-white/70">HDPE Pipeline Specialists · Ghaziabad, UP</span>
                 </AnimatedContent>
 
                 <AnimatedContent distance={30} delay={0.1} className="relative">
@@ -154,7 +88,7 @@ export default function HeroSection() {
 
                 <AnimatedContent distance={30} delay={0.2}>
                     <p className="text-center text-lg md:text-xl text-zinc-300 max-w-2xl mt-8 font-medium leading-relaxed">
-                        Precision engineering for pipelines, roads, and sewage systems. We build the indestructible foundations that power nations and connect communities.
+                        Specialists in HDPE pipe laying & jointing up to 1600mm dia — delivering critical water, gas, and civil infrastructure across India including the Mundra Adani Power Plant & Port.
                     </p>
                 </AnimatedContent>
 
@@ -169,7 +103,7 @@ export default function HeroSection() {
 
                 {/* Trust badges */}
                 <AnimatedContent delay={0.45} className="flex items-center gap-4 mt-12 flex-wrap justify-center">
-                    {["ISO 9001", "CPWD Empanelled", "UP PWD Approved", "BIS Certified"].map(badge => (
+                    {["HDPE up to Ø1600mm", "Civil & EPC Works", "UP PWD Approved", "Adani Group Partner"].map(badge => (
                         <span key={badge} className="text-white/30 font-mono text-[10px] border border-white/10 rounded-full px-3 py-1.5 hover:text-white/60 hover:border-white/20 transition-colors cursor-default">
                             {badge}
                         </span>

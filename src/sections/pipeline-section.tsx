@@ -40,7 +40,7 @@ const installSteps = [
 ];
 
 const specs = [
-    { label: "Max Diameter", value: "1200mm", sub: "HDPE / DI / MS / RCC" },
+    { label: "Max Diameter", value: "1600mm", sub: "HDPE / DI / MS / RCC" },
     { label: "Max Depth", value: "6.0 m", sub: "Rock anchored" },
     { label: "Test Pressure", value: "1.5× WP", sub: "Hydrostatic" },
     { label: "Standards", value: "IS 3114", sub: "CPHEEO Manual" },
@@ -77,8 +77,8 @@ export default function PipelineSection() {
                     </AnimatedContent>
 
                     <AnimatedContent delay={0.15} distance={30} className="flex flex-col gap-8">
-                        <p className="text-white/40 text-lg leading-relaxed">
-                            End-to-end pipeline delivery—from geotechnical survey through commissioning—across water supply, sewage, gas distribution, and industrial sectors.
+                        <p className="text-white/40 text-base leading-relaxed">
+                            End-to-end HDPE pipeline delivery — up to 1600mm dia — from geotechnical survey through commissioning. Our Mundra Adani Power Plant project (30km intake, reject & product water lines) stands as a flagship reference.
                         </p>
                         {/* Spec pills row */}
                         <div className="grid grid-cols-2 gap-3">
@@ -383,10 +383,10 @@ export default function PipelineSection() {
                     </div>
                     <div className="grid grid-cols-2 md:grid-cols-5 divide-x divide-y md:divide-y-0 divide-white/[0.05]">
                         {[
-                            { label: "Max Pipe Dia.", value: "Ø 1200mm" },
+                            { label: "Max Pipe Dia.", value: "Ø 1600mm" },
                             { label: "Max Depth", value: "6.0 m" },
                             { label: "Test Pressure", value: "1.5× WP" },
-                            { label: "Materials", value: "DI · HDPE · MS · RCC" },
+                            { label: "Materials", value: "HDPE · DI · MS · RCC" },
                             { label: "Standards", value: "IS 3114 · CPHEEO" },
                         ].map((spec) => (
                             <div key={spec.label} className="flex flex-col gap-2 px-6 py-6 hover:bg-white/[0.025] transition-colors duration-300">

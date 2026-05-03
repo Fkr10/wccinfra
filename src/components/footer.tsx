@@ -95,14 +95,14 @@ export default function Footer() {
                             </div>
                         </div>
                         <p className="text-white/40 text-sm leading-relaxed max-w-xs mb-8">
-                            Engineering the physical backbone of India — from high-pressure pipelines and highway networks to urban infrastructure and civil works.
+                            Specialists in HDPE pipe laying & jointing up to 1600mm dia — delivering critical water, gas, and civil infrastructure projects across India since 2021.
                         </p>
 
                         <div className="space-y-3">
-                            <a href="https://maps.google.com/?q=23+Govind+Puram+Ghaziabad" target="_blank" rel="noreferrer"
+                            <a href="https://maps.google.com/?q=Govindpuram+Ghaziabad+UP" target="_blank" rel="noreferrer"
                                 className="flex items-start gap-3 text-white/40 hover:text-orange-400 transition-colors group">
                                 <MapPin size={14} className="text-orange-600 mt-0.5 flex-shrink-0" />
-                                <span className="text-sm">23 Govind Puram, Ghaziabad, UP – 201013</span>
+                                <span className="text-sm">Govindpuram, Ghaziabad, Uttar Pradesh – 201013</span>
                             </a>
                             <a href="mailto:info@wccinfra.com"
                                 className="flex items-center gap-3 text-white/40 hover:text-orange-400 transition-colors">

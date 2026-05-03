@@ -31,16 +31,16 @@ export default function CareersSection() {
 
                     <AnimatedContent delay={0.15} distance={30} className="pb-1 flex flex-col items-start gap-5 max-w-sm">
                         <p className="text-zinc-500 text-sm leading-relaxed">
-                            Join a team of elite engineers redefining national infrastructure standards across India.
+                            Based in Govindpuram, Ghaziabad — join a team of infrastructure professionals delivering large-scale HDPE and civil projects across India.
                         </p>
                         <div className="flex items-center gap-5">
                             <div className="flex items-center gap-2">
                                 <Users size={14} className="text-orange-600" />
-                                <span className="font-bold text-zinc-700 text-sm">120+ Engineers</span>
+                                <span className="font-bold text-zinc-700 text-sm">Ghaziabad, UP</span>
                             </div>
                             <div className="flex items-center gap-2">
                                 <MapPin size={14} className="text-orange-600" />
-                                <span className="font-bold text-zinc-700 text-sm">Pan-India Sites</span>
+                                <span className="font-bold text-zinc-700 text-sm">4.4★ Culture Rating</span>
                             </div>
                         </div>
                     </AnimatedContent>

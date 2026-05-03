@@ -35,10 +35,10 @@ export default function StandardsSection() {
                             At WCC Infra, world-class infrastructure is built on uncompromising safety and precision engineering. Our multi-layered quality control systems ensure every project stands the test of time.
                         </p>
                         <div className="mt-8 grid grid-cols-2 gap-3">
-                            {["ISO 9001:2015", "IS 3114", "CPHEEO", "IRC:SP:13"].map(cert => (
+                            {["Adani Group Certified", "UP Jal Nigam Approved", "MCA Govt. of India", "15+ Active Service Orders"].map(cert => (
                                 <div key={cert} className="flex items-center gap-2 bg-white/[0.04] border border-white/[0.07] rounded-lg px-3 py-2.5">
                                     <div className="size-1.5 rounded-full bg-orange-500/60" />
-                                    <span className="text-white/50 font-mono text-[10px] tracking-wider">{cert}</span>
+                                    <span className="text-white/50 font-mono text-[9px] tracking-wider uppercase">{cert}</span>
                                 </div>
                             ))}
                         </div>
