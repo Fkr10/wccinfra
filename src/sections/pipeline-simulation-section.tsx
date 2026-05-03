@@ -82,16 +82,16 @@ export default function PipelineSimulationSection() {
             <div className="sticky top-0 h-screen w-full flex flex-col overflow-hidden">
                 <div className="container mx-auto px-6 pt-24 pb-12 z-20">
                     <AnimatedContent distance={20}>
-                        <div className="flex items-center gap-3 mb-4">
-                            <div className="h-px w-12 bg-orange-500/40" />
-                            <span className="text-orange-500 font-mono text-xs font-bold tracking-[0.4em] uppercase">Phase Sequence Simulation</span>
+                        <div className="flex items-center gap-3 mb-5">
+                            <div className="h-px w-10 bg-orange-500/50" />
+                            <span className="text-orange-500 font-mono text-[11px] font-bold tracking-[0.4em] uppercase">Phase Sequence Simulation</span>
                         </div>
-                        <h2 className="text-4xl md:text-6xl font-urbanist font-black tracking-tighter mb-4 leading-tight">
+                        <h2 className="text-4xl md:text-5xl lg:text-6xl font-urbanist font-black tracking-tighter mb-4 leading-[1.0]">
                             Pipeline Installation<br />
-                            <span className="text-orange-500">Interactive Simulation</span>
+                            <span className="text-orange-500">Live Simulation</span>
                         </h2>
-                        <p className="max-w-xl text-white/40 text-sm md:text-base leading-relaxed">
-                            A high-fidelity visualization of our engineering workflow—from initial excavation to final surface reinstatement. Scroll to see technical execution in action.
+                        <p className="max-w-xl text-white/35 text-sm leading-relaxed">
+                            A high-fidelity visualization of our engineering workflow — from initial excavation to final surface reinstatement. Scroll to advance each phase.
                         </p>
                     </AnimatedContent>
                 </div>
@@ -101,29 +101,37 @@ export default function PipelineSimulationSection() {
                         {steps.map((step, i) => (
                             <motion.div
                                 key={i}
-                                className={`relative p-6 rounded-2xl border transition-all duration-500 ${activeStep === i
-                                    ? "bg-white/[0.05] border-orange-500/30 shadow-2xl shadow-orange-500/5 translate-x-2"
-                                    : "bg-transparent border-white/[0.05] opacity-30 grayscale"
-                                    }`}
-                                animate={{
-                                    scale: activeStep === i ? 1.05 : 1,
-                                }}
+                                className={`relative pl-5 pr-5 py-5 rounded-2xl border transition-all duration-500 overflow-hidden ${
+                                    activeStep === i
+                                        ? "bg-white/[0.06] border-orange-500/30 shadow-2xl shadow-orange-500/8"
+                                        : "bg-white/[0.02] border-white/[0.05] opacity-35"
+                                }`}
+                                animate={{ x: activeStep === i ? 4 : 0, scale: activeStep === i ? 1.02 : 1 }}
+                                transition={{ duration: 0.4 }}
                             >
-                                <div className="absolute top-0 left-0 h-full w-1 bg-white/[0.05]">
+                                {/* Left progress bar */}
+                                <div className="absolute top-0 left-0 h-full w-[3px] bg-white/[0.04]">
                                     <motion.div
-                                        className="h-full w-full bg-orange-500"
-                                        initial={{ y: "100%" }}
-                                        animate={{ y: activeStep === i ? "0%" : (activeStep > i ? "0%" : "100%") }}
-                                        transition={{ duration: 0.5 }}
+                                        className="w-full bg-gradient-to-b from-orange-500 to-amber-400"
+                                        initial={{ height: "0%" }}
+                                        animate={{ height: activeStep >= i ? "100%" : "0%" }}
+                                        transition={{ duration: 0.5, ease: "easeOut" }}
                                     />
                                 </div>
-                                <div className="flex gap-4 items-start">
-                                    <div className={`p-2 rounded-lg ${activeStep === i ? "bg-orange-500/20 text-orange-500" : "bg-white/5 text-white/40"}`}>
+                                <div className="flex gap-3 items-start">
+                                    <div className={`flex-shrink-0 p-2 rounded-xl transition-all duration-300 ${
+                                        activeStep === i ? "bg-orange-500/20 text-orange-400" : "bg-white/[0.04] text-white/30"
+                                    }`}>
                                         {step.icon}
                                     </div>
                                     <div>
-                                        <h3 className={`font-bold ${activeStep === i ? "text-white" : "text-white/40"}`}>{step.title}</h3>
-                                        <p className="text-xs text-white/30 mt-1">{step.desc}</p>
+                                        <p className="text-[9px] font-mono text-white/25 uppercase tracking-widest mb-1">{`0${i + 1}`}</p>
+                                        <h3 className={`font-bold text-sm leading-snug transition-colors duration-300 ${
+                                            activeStep === i ? "text-white" : "text-white/35"
+                                        }`}>{step.title}</h3>
+                                        <p className={`text-xs leading-relaxed mt-1 transition-colors duration-300 ${
+                                            activeStep === i ? "text-white/40" : "text-white/15"
+                                        }`}>{step.desc}</p>
                                     </div>
                                 </div>
                             </motion.div>
@@ -216,8 +224,8 @@ export default function PipelineSimulationSection() {
                     </div>
                 </div>
 
-                <div className="h-1 w-full bg-white/5 relative z-30">
-                    <motion.div className="h-full bg-orange-500" style={{ scaleX: smoothProgress, transformOrigin: "left" }} />
+                <div className="h-[2px] w-full bg-white/[0.04] relative z-30">
+                    <motion.div className="h-full bg-gradient-to-r from-orange-600 to-amber-400" style={{ scaleX: smoothProgress, transformOrigin: "left" }} />
                 </div>
             </div>
         </section>

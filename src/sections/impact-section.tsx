@@ -1,30 +1,30 @@
 import AnimatedContent from "../components/animated-content";
-import { ArrowRight, Users, Zap, Award } from "lucide-react";
+import { ArrowRight, Users, Zap, Award, ArrowUpRight } from "lucide-react";
 
 const impactStories = [
     {
         icon: Zap,
         metric: "45%",
         title: "Faster Installation",
-        description: "Our trenchless technology reduces project timelines by 45%, minimizing disruption to urban communities and businesses.",
+        description: "Trenchless technology reduces project timelines by 45%, minimizing disruption to urban communities.",
         color: "from-orange-500 to-amber-400",
-        bgColor: "bg-orange-500/10",
+        accent: "#ea580c",
     },
     {
         icon: Award,
         metric: "ISO 9001",
         title: "Quality Certified",
-        description: "Internationally recognized certifications ensure every project meets the highest global standards for safety and durability.",
+        description: "Internationally recognized certifications ensure every project meets global standards for safety and durability.",
         color: "from-amber-500 to-yellow-400",
-        bgColor: "bg-amber-500/10",
+        accent: "#f59e0b",
     },
     {
         icon: Users,
         metric: "Zero",
         title: "Safety Incidents",
-        description: "Our commitment to worker safety and community welfare results in consistent safety records across all projects.",
+        description: "Unwavering commitment to worker safety delivers consistent safety records across all project sites.",
         color: "from-orange-600 to-orange-400",
-        bgColor: "bg-orange-600/10",
+        accent: "#f97316",
     },
 ];
 
@@ -34,157 +34,159 @@ const caseStudies = [
         title: "Ghaziabad Water Pipeline Network",
         client: "Municipal Corporation of Ghaziabad",
         scale: "250+ km pipeline",
-        impact: "Upgraded water supply to 2M+ residents",
-        year: "2023-2024",
-        gradient: "from-orange-500 via-orange-400 to-amber-300",
+        impact: "2M+ residents served",
+        year: "2023–2024",
+        tag: "Water Infrastructure",
     },
     {
         id: 2,
         title: "NH-44 Highway Expansion",
         client: "Ministry of Road Transport",
         scale: "85 km rehabilitation",
-        impact: "Reduced travel time by 30%",
-        year: "2022-2023",
-        gradient: "from-amber-500 via-yellow-400 to-orange-400",
+        impact: "30% travel time reduction",
+        year: "2022–2023",
+        tag: "Highway",
     },
     {
         id: 3,
         title: "Sewage Treatment Infrastructure",
         client: "State Pollution Board",
         scale: "15 STP plants",
-        impact: "Treated 450MLD wastewater daily",
-        year: "2024-Present",
-        gradient: "from-orange-600 via-orange-500 to-amber-400",
+        impact: "450 MLD treated daily",
+        year: "2024–Present",
+        tag: "Sewage & Water",
     },
 ];
 
 export default function ImpactSection() {
     return (
-        <section id="impact" className="py-32 bg-gradient-to-b from-zinc-50 to-white px-4 md:px-16 lg:px-24 xl:px-32 relative overflow-hidden">
-            {/* Decorative Background Elements */}
-            <div className="absolute top-20 left-10 w-64 h-64 bg-orange-100/30 rounded-full blur-3xl pointer-events-none" />
-            <div className="absolute bottom-20 right-10 w-64 h-64 bg-amber-100/20 rounded-full blur-3xl pointer-events-none" />
+        <section id="impact" className="py-32 bg-white px-4 md:px-16 lg:px-24 xl:px-32 relative overflow-hidden">
+            {/* Decorative Background */}
+            <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-zinc-200 to-transparent" />
+            <div className="absolute top-32 left-0 w-[400px] h-[400px] bg-orange-50 rounded-full blur-3xl pointer-events-none opacity-60" />
+            <div className="absolute bottom-32 right-0 w-[300px] h-[300px] bg-amber-50 rounded-full blur-3xl pointer-events-none opacity-60" />
+
+            {/* Dot grid */}
+            <div className="absolute inset-0 opacity-[0.02] pointer-events-none"
+                style={{ backgroundImage: 'radial-gradient(#000 1px, transparent 1px)', backgroundSize: '32px 32px' }} />
 
             <div className="max-w-7xl mx-auto relative z-10">
                 {/* Header */}
-                <div className="text-center mb-24">
+                <div className="text-center mb-20">
                     <AnimatedContent distance={30}>
-                        <div className="flex justify-center mb-6">
-                            <div className="flex items-center gap-3 bg-orange-50 border border-orange-200 rounded-full px-6 py-2">
-                                <span className="text-orange-600 font-mono text-xs font-bold tracking-[0.3em] uppercase">Real Impact</span>
-                                <div className="size-1.5 rounded-full bg-orange-600 animate-pulse" />
-                            </div>
+                        <div className="inline-flex items-center gap-3 bg-orange-50 border border-orange-200/60 rounded-full px-5 py-2 mb-8">
+                            <div className="size-1.5 rounded-full bg-orange-600 animate-pulse" />
+                            <span className="text-orange-600 font-mono text-[11px] font-bold tracking-[0.3em] uppercase">Real Impact</span>
                         </div>
-                        <h2 className="text-4xl md:text-6xl font-urbanist font-black text-zinc-900 tracking-tighter leading-tight mb-8">
-                            Infrastructure That <br />
-                            <span className="bg-gradient-to-r from-orange-600 to-amber-500 bg-clip-text text-transparent">Transforms Lives</span>
+                        <h2 className="text-4xl md:text-5xl lg:text-6xl font-urbanist font-black text-zinc-900 tracking-tighter leading-[1.0] mb-6">
+                            Infrastructure That{" "}
+                            <span className="bg-gradient-to-r from-orange-600 to-amber-500 bg-clip-text text-transparent">
+                                Transforms Lives
+                            </span>
                         </h2>
-                        <p className="text-zinc-600 max-w-2xl text-lg leading-relaxed mx-auto">
-                            Every project we undertake creates ripples of positive change—connecting communities, enabling growth, and building the backbone of modern India.
+                        <p className="text-zinc-500 max-w-xl text-base leading-relaxed mx-auto">
+                            Every project creates ripples of positive change — connecting communities, enabling growth, and building the backbone of modern India.
                         </p>
                     </AnimatedContent>
                 </div>
 
-                {/* Impact Metrics Grid */}
-                <div className="grid md:grid-cols-3 gap-6 mb-24">
+                {/* Impact Metrics */}
+                <div className="grid md:grid-cols-3 gap-5 mb-20">
                     {impactStories.map((story, index) => (
                         <AnimatedContent
                             key={index}
                             delay={index * 0.1}
                             distance={30}
-                            className="group p-8 rounded-2xl bg-white border border-zinc-200 shadow-sm hover:shadow-xl hover:border-orange-200 transition-all duration-500 active:scale-[0.98]"
+                            className="group relative p-8 rounded-2xl bg-white border border-zinc-100 shadow-sm hover:shadow-2xl hover:shadow-zinc-100 hover:border-orange-100 transition-all duration-500 active:scale-[0.99] overflow-hidden"
                         >
-                            <div className={`size-16 rounded-2xl ${story.bgColor} flex items-center justify-center mb-6 transition-all duration-500 group-hover:scale-110 group-hover:-rotate-3`}>
-                                <story.icon className="size-8 text-orange-600" />
+                            {/* Icon */}
+                            <div className="size-14 rounded-2xl flex items-center justify-center mb-6 transition-all duration-500 group-hover:scale-110 group-hover:-rotate-3"
+                                style={{ background: `${story.accent}12`, border: `1px solid ${story.accent}22` }}>
+                                <story.icon className="size-7" style={{ color: story.accent }} />
                             </div>
 
-                            <div className={`text-3xl font-black font-urbanist bg-gradient-to-r ${story.color} bg-clip-text text-transparent mb-3`}>
+                            <div className={`text-4xl font-black font-urbanist bg-gradient-to-r ${story.color} bg-clip-text text-transparent mb-2 leading-none`}>
                                 {story.metric}
                             </div>
 
-                            <h3 className="text-xl font-bold text-zinc-900 mb-4 group-hover:text-orange-600 transition-colors">
+                            <h3 className="text-lg font-bold text-zinc-900 mb-3 group-hover:text-orange-600 transition-colors duration-300">
                                 {story.title}
                             </h3>
 
-                            <p className="text-zinc-600 leading-relaxed group-hover:text-zinc-700 transition-colors">
+                            <p className="text-zinc-500 text-sm leading-relaxed">
                                 {story.description}
                             </p>
+
+                            {/* Bottom accent */}
+                            <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-orange-200 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                         </AnimatedContent>
                     ))}
                 </div>
 
-                {/* Case Studies Showcase */}
-                <AnimatedContent distance={30} className="mb-16">
-                    <div className="flex items-center gap-3 mb-8">
-                        <div className="h-px w-8 bg-orange-600" />
-                        <span className="text-orange-600 font-bold text-xs tracking-[0.4em] uppercase">Featured Projects</span>
+                {/* Case Studies */}
+                <AnimatedContent distance={30} className="mb-8">
+                    <div className="flex items-center gap-3">
+                        <div className="h-px w-8 bg-orange-600/50" />
+                        <span className="text-orange-600 font-mono text-[11px] font-bold tracking-[0.4em] uppercase">Featured Projects</span>
                     </div>
                 </AnimatedContent>
 
-                <div className="grid lg:grid-cols-3 gap-6 mb-12">
+                <div className="grid lg:grid-cols-3 gap-4">
                     {caseStudies.map((study, index) => (
                         <AnimatedContent
                             key={study.id}
-                            delay={index * 0.15}
+                            delay={index * 0.12}
                             distance={30}
-                            className="group relative overflow-hidden rounded-2xl cursor-pointer active:scale-[0.98] transition-transform duration-300"
+                            className="group relative overflow-hidden rounded-2xl cursor-pointer"
                         >
-                            {/* Background gradient */}
-                            <div className={`absolute inset-0 bg-gradient-to-br ${study.gradient} opacity-0 group-hover:opacity-100 transition-opacity duration-700`} />
+                            <div className="relative p-7 bg-zinc-950 border border-white/[0.06] rounded-2xl h-full flex flex-col transition-all duration-500 group-hover:border-orange-500/20">
+                                {/* Background gradient reveal */}
+                                <div className="absolute inset-0 bg-gradient-to-br from-orange-600/10 to-amber-600/5 opacity-0 group-hover:opacity-100 transition-opacity duration-700 rounded-2xl" />
 
-                            {/* Card content */}
-                            <div className="relative p-8 bg-white border border-zinc-200 rounded-2xl group-hover:border-transparent transition-all duration-500 h-full flex flex-col">
-                                <div className="flex-1 mb-6">
-                                    <p className="text-xs font-mono text-zinc-400 tracking-widest uppercase mb-4 group-hover:text-white/70">
-                                        {study.year}
-                                    </p>
-                                    <h3 className="text-2xl font-black text-zinc-900 mb-3 group-hover:text-white transition-colors leading-tight">
+                                <div className="relative z-10 flex-1">
+                                    <div className="flex items-start justify-between mb-5">
+                                        <span className="text-[9px] font-mono font-bold text-orange-500/60 uppercase tracking-widest border border-orange-500/20 rounded-full px-3 py-1">
+                                            {study.tag}
+                                        </span>
+                                        <span className="text-[10px] font-mono text-white/25">{study.year}</span>
+                                    </div>
+
+                                    <h3 className="text-xl font-black text-white mb-2 group-hover:text-orange-400 transition-colors duration-300 leading-tight">
                                         {study.title}
                                     </h3>
-                                    <p className="text-sm text-zinc-600 mb-4 group-hover:text-white/80 transition-colors">
-                                        {study.client}
-                                    </p>
+                                    <p className="text-sm text-white/40 mb-6">{study.client}</p>
                                 </div>
 
-                                <div className="space-y-2 pt-6 border-t border-zinc-200 group-hover:border-white/20 transition-colors">
+                                <div className="relative z-10 space-y-2 pt-5 border-t border-white/[0.06] group-hover:border-orange-500/15 transition-colors">
                                     <div className="flex justify-between items-center">
-                                        <span className="text-xs text-zinc-500 group-hover:text-white/60 uppercase tracking-wider">Scale</span>
-                                        <span className="text-sm font-bold text-zinc-900 group-hover:text-white transition-colors">{study.scale}</span>
+                                        <span className="text-[10px] font-mono text-white/25 uppercase tracking-wider">Scale</span>
+                                        <span className="text-sm font-bold text-white/70 group-hover:text-white transition-colors">{study.scale}</span>
                                     </div>
                                     <div className="flex justify-between items-center">
-                                        <span className="text-xs text-zinc-500 group-hover:text-white/60 uppercase tracking-wider">Impact</span>
-                                        <span className="text-sm font-bold text-orange-600 group-hover:text-orange-300 transition-colors">{study.impact}</span>
+                                        <span className="text-[10px] font-mono text-white/25 uppercase tracking-wider">Impact</span>
+                                        <span className="text-sm font-bold text-orange-400">{study.impact}</span>
                                     </div>
                                 </div>
 
-                                {/* Arrow indicator */}
-                                <div className="mt-6 flex items-center gap-2 text-orange-600 group-hover:text-white transition-colors opacity-0 group-hover:opacity-100 translate-y-2 group-hover:translate-y-0">
-                                    <span className="text-xs font-bold uppercase tracking-wider">Learn More</span>
-                                    <ArrowRight size={14} />
+                                <div className="relative z-10 mt-5 flex items-center gap-2 text-orange-500 opacity-0 group-hover:opacity-100 -translate-y-1 group-hover:translate-y-0 transition-all duration-300">
+                                    <span className="text-xs font-bold uppercase tracking-wider">View Details</span>
+                                    <ArrowRight size={13} className="group-hover:translate-x-1 transition-transform" />
                                 </div>
                             </div>
                         </AnimatedContent>
                     ))}
                 </div>
 
-                {/* CTA Section */}
-                <AnimatedContent distance={30} className="text-center mt-24">
-                    <div className="inline-flex flex-col items-center gap-6">
-                        <p className="text-zinc-600 max-w-xl text-lg">
-                            Every infrastructure project starts with a vision. We transform that vision into reality with precision, innovation, and an unwavering commitment to excellence.
-                        </p>
-                        <button className="group relative px-8 py-4 rounded-full font-bold text-white overflow-hidden transition-all active:scale-[0.98]">
-                            <div className="absolute inset-0 bg-gradient-to-r from-orange-600 to-amber-500 group-hover:from-orange-700 group-hover:to-amber-600 transition-all duration-300" />
-                            <span className="relative flex items-center gap-2">
-                                Explore Our Portfolio
-                                <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
-                            </span>
-                        </button>
-                    </div>
+                {/* CTA */}
+                <AnimatedContent distance={30} className="text-center mt-20">
+                    <p className="text-zinc-500 max-w-lg mx-auto text-base mb-8 leading-relaxed">
+                        Every infrastructure project starts with a vision. We transform that vision into reality with precision and unwavering excellence.
+                    </p>
+                    <a href="#contact" className="group inline-flex items-center gap-3 px-8 py-4 rounded-xl font-bold text-white bg-gradient-to-r from-orange-600 to-amber-500 hover:from-orange-700 hover:to-amber-600 transition-all duration-300 shadow-xl shadow-orange-500/20 hover:shadow-orange-500/30 hover:-translate-y-0.5 active:scale-[0.98] text-sm tracking-wide">
+                        Explore Our Portfolio
+                        <ArrowUpRight size={16} className="group-hover:rotate-45 transition-transform duration-300" />
+                    </a>
                 </AnimatedContent>
-
-                {/* Bottom Decorative Line */}
-                <div className="mt-32 h-[1px] w-full bg-gradient-to-r from-transparent via-zinc-300 to-transparent" />
             </div>
         </section>
     );

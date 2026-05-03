@@ -49,6 +49,8 @@ const specs = [
 export default function PipelineSection() {
     return (
         <section className="bg-[#080c14] relative overflow-hidden py-32 px-4 md:px-16 lg:px-24 xl:px-32">
+            {/* Top edge */}
+            <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-orange-500/20 to-transparent" />
 
             {/* Blueprint grid */}
             <div className="absolute inset-0 opacity-[0.035] pointer-events-none"
@@ -64,13 +66,13 @@ export default function PipelineSection() {
                 <div className="grid lg:grid-cols-2 gap-16 items-end mb-20">
                     <AnimatedContent distance={30}>
                         <div className="flex items-center gap-3 mb-6">
-                            <div className="h-px w-12 bg-orange-500/40" />
-                            <span className="text-orange-500 font-mono text-xs font-bold tracking-[0.4em] uppercase">Core Service — PP-07</span>
+                            <div className="h-px w-10 bg-orange-500/50" />
+                            <span className="text-orange-500 font-mono text-[11px] font-bold tracking-[0.4em] uppercase">Core Service — PP-07</span>
                         </div>
-                        <h2 className="text-5xl md:text-7xl font-urbanist font-black text-white tracking-tighter leading-[0.9] mb-6">
+                        <h2 className="text-5xl md:text-6xl lg:text-7xl font-urbanist font-black text-white tracking-tighter leading-[0.9] mb-6">
                             Pipeline<br />
                             <span className="text-orange-500">Installation</span><br />
-                            <span className="text-white/30">& Engineering</span>
+                            <span className="text-white/20">&amp; Engineering</span>
                         </h2>
                     </AnimatedContent>
 
@@ -81,10 +83,10 @@ export default function PipelineSection() {
                         {/* Spec pills row */}
                         <div className="grid grid-cols-2 gap-3">
                             {specs.map((s) => (
-                                <div key={s.label} className="bg-white/[0.04] border border-white/[0.07] rounded-xl p-4 hover:border-orange-500/30 transition-colors group">
-                                    <p className="text-white/25 font-mono text-[9px] uppercase tracking-widest mb-1">{s.label}</p>
-                                    <p className="text-orange-400 font-black text-lg font-mono leading-tight">{s.value}</p>
-                                    <p className="text-white/20 font-mono text-[9px] mt-0.5">{s.sub}</p>
+                                <div key={s.label} className="bg-white/[0.035] border border-white/[0.06] rounded-xl p-4 hover:border-orange-500/25 hover:bg-white/[0.05] transition-all duration-300 group">
+                                    <p className="text-white/20 font-mono text-[9px] uppercase tracking-widest mb-1.5">{s.label}</p>
+                                    <p className="text-orange-400 font-black text-xl font-urbanist leading-none">{s.value}</p>
+                                    <p className="text-white/20 font-mono text-[9px] mt-1.5">{s.sub}</p>
                                 </div>
                             ))}
                         </div>
@@ -93,7 +95,7 @@ export default function PipelineSection() {
 
                 {/* ── CROSS-SECTION DIAGRAM ── */}
                 <AnimatedContent distance={20} className="mb-20">
-                    <div className="relative rounded-3xl overflow-hidden border border-white/[0.08] bg-[#060a11] shadow-2xl shadow-black/60">
+                    <div className="relative rounded-2xl overflow-hidden border border-white/[0.07] bg-[#060a11] shadow-2xl shadow-black/70">
 
                         {/* Diagram header bar */}
                         <div className="flex items-center justify-between px-6 py-3 border-b border-white/[0.06] bg-white/[0.02]">
@@ -334,7 +336,7 @@ export default function PipelineSection() {
                                 <AnimatedContent key={i} delay={i * 0.08} distance={20}
                                     className="group relative"
                                 >
-                                    <div className="relative bg-white/[0.03] border border-white/[0.07] rounded-2xl p-6 h-full hover:bg-white/[0.06] hover:border-orange-500/30 active:scale-[0.98] transition-all duration-500 hover:-translate-y-1 hover:shadow-xl hover:shadow-orange-500/5">
+                                    <div className="relative bg-white/[0.03] border border-white/[0.06] rounded-2xl p-6 h-full hover:bg-white/[0.055] hover:border-orange-500/25 active:scale-[0.99] transition-all duration-400 hover:-translate-y-1.5 hover:shadow-2xl hover:shadow-orange-500/8">
                                         {/* Step indicator */}
                                         <div className="flex items-center justify-between mb-5">
                                             <div className="size-9 rounded-xl bg-orange-600/10 border border-orange-600/20 flex items-center justify-center text-orange-500 group-hover:bg-orange-600/20 transition-all">
@@ -372,10 +374,14 @@ export default function PipelineSection() {
 
                 {/* ── BOTTOM SPEC BANNER ── */}
                 <AnimatedContent delay={0.4} className="rounded-2xl border border-white/[0.06] overflow-hidden">
-                    <div className="bg-white/[0.02] px-8 py-4 border-b border-white/[0.05]">
-                        <span className="text-white/20 font-mono text-[9px] uppercase tracking-[0.3em]">Technical Compliance Parameters</span>
+                    <div className="flex items-center justify-between bg-white/[0.025] px-8 py-4 border-b border-white/[0.05]">
+                        <span className="text-white/20 font-mono text-[10px] uppercase tracking-[0.3em]">Technical Compliance Parameters</span>
+                        <div className="flex items-center gap-2">
+                            <div className="size-1.5 rounded-full bg-orange-500/60 animate-blink-dot" />
+                            <span className="text-white/15 font-mono text-[9px] uppercase tracking-widest">Live Spec</span>
+                        </div>
                     </div>
-                    <div className="grid grid-cols-2 md:grid-cols-5 divide-x divide-white/[0.05]">
+                    <div className="grid grid-cols-2 md:grid-cols-5 divide-x divide-y md:divide-y-0 divide-white/[0.05]">
                         {[
                             { label: "Max Pipe Dia.", value: "Ø 1200mm" },
                             { label: "Max Depth", value: "6.0 m" },
@@ -383,9 +389,9 @@ export default function PipelineSection() {
                             { label: "Materials", value: "DI · HDPE · MS · RCC" },
                             { label: "Standards", value: "IS 3114 · CPHEEO" },
                         ].map((spec) => (
-                            <div key={spec.label} className="flex flex-col gap-1.5 px-6 py-5 hover:bg-white/[0.02] transition-colors">
+                            <div key={spec.label} className="flex flex-col gap-2 px-6 py-6 hover:bg-white/[0.025] transition-colors duration-300">
                                 <span className="text-white/20 font-mono text-[9px] uppercase tracking-widest">{spec.label}</span>
-                                <span className="text-orange-400 font-black font-mono text-base leading-tight">{spec.value}</span>
+                                <span className="text-orange-400 font-black font-urbanist text-lg leading-none">{spec.value}</span>
                             </div>
                         ))}
                     </div>
