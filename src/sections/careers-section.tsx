@@ -1,6 +1,6 @@
 import { jobs } from "../data/careers";
 import AnimatedContent from "../components/animated-content";
-import { Briefcase, MapPin, Clock, ArrowUpRight, Users, ChevronRight } from "lucide-react";
+import { Briefcase, MapPin, Clock, ArrowUpRight, Users } from "lucide-react";
 
 export default function CareersSection() {
     return (

@@ -1,6 +1,6 @@
 import AnimatedContent from "../components/animated-content";
 import { team } from "../data/team";
-import { Mail, Shield, Linkedin } from "lucide-react";
+import { Mail, Shield } from "lucide-react";
 
 export default function OurTeamSection() {
     return (

@@ -1,5 +1,5 @@
 import AnimatedContent from "../components/animated-content";
-import { HardHat, ChevronDown } from "lucide-react";
+import { HardHat } from "lucide-react";
 import CustomIcon from "../components/custom-icon";
 
 export default function HeroSection() {
